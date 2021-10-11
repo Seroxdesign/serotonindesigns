@@ -1,0 +1,23 @@
+.back-color{
+    background-color: #567470;
+}
+
+.button-color{
+    
+}
+
+.secondary-color{
+
+}
+
+.card-wrapper{
+    box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
+}
+
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    
+}
