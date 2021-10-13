@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from 'components/Navbar/Navbar'
 import Header from 'components/Headers/Header'
+import ContactForm from 'components/ContactForm/ContactForm'
 
 export default class ContactPage extends Component {
     render() {
@@ -17,6 +18,9 @@ export default class ContactPage extends Component {
                         </div>
                     </div>
 
+                    <div className="section-2">
+                         <ContactForm />
+                    </div>
                 </div>
             </div>
         )

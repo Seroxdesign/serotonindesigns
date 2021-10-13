@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from 'components/Headers/Header'
+import MainHeader from 'components/Headers/MainHeader'
 import Zoom from 'react-reveal/Zoom'
 
 import './Cards.css'
@@ -12,7 +12,7 @@ export default function IntroductionCard() {
             </img>
 
             <Zoom>
-            <Header title={"Hello world, I'm Sherif"} color={"#6bffeb"}/>
+                <MainHeader title={"Hello world, my name is Sherif, and I am a web developer"}/>
             </Zoom>
            
 

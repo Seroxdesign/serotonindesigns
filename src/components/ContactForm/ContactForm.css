@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1023px){
+    .contact-form-wrapper{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 10% 15% 70%;
+       
+    }
+
+    .contact-options{
+        grid-row: 2;
+        height: 100%;
+        width: 100%;
+        background-color: #303030;
+    }
+
+    .contact-form{
+        grid-row: 3;
+        background-color: #303030;
+        margin-top: 2em;
+    }
+
+    #contact-form{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 10% 10% 70% 10%;
+        box-sizing: border-box;
+        padding: 0.5em;
+        
+    }
+
+    input{
+        width: 90%;
+        height: 80%;
+        margin-left: 5%;
+        margin-top: 1em;
+        color: white;
+        background-color: #303030;
+        border: 2px solid white;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0.5em;
+        border-radius: 10px;
+    }
+
+    textarea{
+        width: 90%;
+        height: 80%;
+        margin-left: 5%;
+        margin-top: 1.5em;
+        background-color: #303030;
+        border: 2px solid white;
+        box-sizing: border-box;
+        padding: 1em;
+        color: white;
+        border-radius: 10px;
+    }
+   
+    #submit-btn{
+        margin-top: -1em;
+        border-radius: 50px;
+        padding: 0%;
+        border: 2px solid #1efeff;
+        color: #1efeff;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    
+}

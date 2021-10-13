@@ -10,9 +10,17 @@
         font-weight: 600;
         width: 80%;
         margin-left: 5%;
-        margin-left: 10%;
         
     }
+
+    .main-header-wrapper{
+        color: #1efeff;
+        margin-left: 10%;
+        width: 90%;
+        margin-top: 2em;
+        font-size: x-large;
+    }
+    
 }
 
 @media only screen and (min-width: 1024px){
