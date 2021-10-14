@@ -3,7 +3,7 @@
         height: 100%;
         width: 100%;
         display: grid;
-        grid-template-rows: 10% 15% 70%;
+        grid-template-rows: 12% 15% 73%;
        
     }
 
@@ -12,12 +12,15 @@
         height: 100%;
         width: 100%;
         background-color: #303030;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.7em;
     }
 
     .contact-form{
         grid-row: 3;
         background-color: #303030;
-        margin-top: 2em;
+     
     }
 
     #contact-form{
@@ -63,6 +66,31 @@
         padding: 0%;
         border: 2px solid #1efeff;
         color: #1efeff;
+    }
+
+    .contact-option{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow-y: hidden;
+    }
+
+    .circle-option{
+        height: 2.2em;
+        padding-left: 1.5em;
+        filter: brightness(0) invert(1);
+    }
+
+    .email-option{
+        margin-left: 1em;
+        color: white;
+        font-weight: 300;
+    }
+
+    .phone-option{
+        margin-left: 1em;
+        color: #1efeff;
+        font-weight: 300;
     }
 }
 

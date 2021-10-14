@@ -35,8 +35,15 @@ export default function ContactForm() {
             </div>
 
             <div className="contact-options">
-                <h4 className="">Call me: </h4>
-                <h4 className="">Email me: </h4>
+                <div className="contact-option">
+                    <img className="circle-option" src="https://i.imgur.com/vxNshty.png" alt=""></img>
+                    <a href="tel:8457180480"  className="phone-option">Call me at 845-718-0480</a>
+                </div>
+
+                <div className="contact-option">
+                    <img className="circle-option" src="https://i.imgur.com/tX6qjxI.png" alt=""></img>
+                    <h3 className="email-option">Sherifcherfa@gmail.com</h3>
+                </div>
             </div>
 
             <div className="contact-form">

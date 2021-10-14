@@ -30,9 +30,14 @@
 
     .media-grid{
         margin-top: 5%;
-        height: 40%;
-        background-color: whitesmoke;
+        height: 45%;
+
         display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5em;
+        box-sizing: border-box;
+        padding: 1em;
     }
 
     .passion-cta{

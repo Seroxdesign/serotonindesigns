@@ -12,7 +12,7 @@ export default function IntroductionCard() {
             </img>
 
             <Zoom>
-                <MainHeader title={"Hello world, my name is Sherif, and I am a web developer"}/>
+                <MainHeader title={"Hi, my name is Sherif, and I'm a web developer"} />
             </Zoom>
            
 
