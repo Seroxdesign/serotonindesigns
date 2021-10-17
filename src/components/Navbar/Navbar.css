@@ -7,6 +7,25 @@
         z-index: 2;
         border-bottom: 2px solid black;
         background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-header{
+        margin-left: 1em;
+        font-weight: bold;
+    }
+
+    .navbar-menu{
+        margin-right: 1em;
+        border: none;
+        background-color: white;
+    }
+
+    .navbar-img{
+        height: 6vh;
     }
 }
 

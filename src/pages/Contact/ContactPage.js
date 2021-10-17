@@ -13,13 +13,9 @@ export default class ContactPage extends Component {
                 <Navbar />
 
                 <div className="content-wrapper" >
-                    <div className="section-1" >
-                        <img src="https://i.imgur.com/LJJtAky.jpg" alt="" style={{width: '100vw', marginTop: '-1vh'}}></img>
-                        <Header title={"Get in touch"} color={"black"}/>
-                        
-                    </div>
+                  
 
-                    <div className="section-2">
+                    <div className="section-2" style={{marginTop: '-0.5em'}}>
                          <ContactForm />
                     </div>
 
