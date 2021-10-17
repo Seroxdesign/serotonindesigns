@@ -7,6 +7,10 @@
         box-sizing: border-box;
         background-color: #F3EEED;
         overflow-x: hidden;
+       
+       
+        background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+
     }
 
     .dropdown-menu{
