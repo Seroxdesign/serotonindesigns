@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1023px){
+    .footer-wrapper{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 20% 80%;
+    }
+
+    .footer-top{
+        grid-row: 1;
+
+    }
+
+    .footer-bottom{
+        grid-row: 2;
+        height: 100%;
+        width: 100%;
+        background-color: #303030;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .site-foot-header{
+        color: whitesmoke;
+        margin-left: 1em;
+        margin-top: 1em;
+        font-weight: 300;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.506);
+        width: 90%;
+        height: 1.8em;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    
+}

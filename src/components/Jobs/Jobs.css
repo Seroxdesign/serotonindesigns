@@ -2,79 +2,32 @@
 @media only screen and (max-width: 1023px){
     .job-wrapper{
         height: 80%;
-        width: 100%;
+        width: 100vw;
         background-color: #303030;
         margin-top: 1.5em;
-        display: grid;
-        grid-template-rows: 15% 25% 60%;
+        
     }
 
-    .job-title{
-        grid-row: 1; 
-        height: 100%;
-        width: 100%;
-        border-bottom: 2px solid white;
-    }
-
-    .job-para{
-        grid-row: 2;
-        height: 100%;
-        width: 100%;
+    .scroller{
+        height: 90%;
         margin-top: 1em;
-        padding-left: 2em;
-        padding-right: 2em;
-        color: white;
-        width: 100%;
-    }
-
-    .job-display{
-        grid-row: 3;
-        height: 100%;
-        width: 100%;
-    }
-
-    .job-screens{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-
-    }
-
-    .laptop-display{
-        width: 67vw;
-        height: 25vh;
-  
-    }
-
-    .laptop-sc{
-    
-        height: 25vh;
-    }
-
-    .phone-display{
-       
-        height: 30vh;
-        position: relative;
-        border-radius: 5%;
-    }
-
-    .phone-sc{
-        width: 30vw;
-    }
-
-    .job-display-index{
+        width: 400vw;
+        overflow-x: scroll;
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2em;
     }
 
-    .project-title{
+    .scroll{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .job-card-wrapper{
         margin-top: 1em;
+        width: 70vw;
         margin-left: 1em;
-        color: white;
+        background-color: grey;
+    
     }
 }
 

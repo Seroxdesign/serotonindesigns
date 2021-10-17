@@ -6,6 +6,7 @@
         width: 100vw;
         box-sizing: border-box;
         background-color: #F3EEED;
+        overflow-x: hidden;
     }
 
     .content-wrapper{
