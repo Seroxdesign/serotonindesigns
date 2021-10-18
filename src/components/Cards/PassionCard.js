@@ -15,13 +15,13 @@ export default function PassionCard(props) {
 
 
             <Fade left="true">
-                <PassionBar img={"https://i.imgur.com/tcykbVw.png"} title={"Content creation"} statement={"Knowledge is strength, let's spread it."} cta={"Subscribe"}/>
+                <PassionBar link={"https://www.youtube.com/channel/UCeNLqAes-kUMjWksPA6d-BA"} img={"https://i.imgur.com/tcykbVw.png"} title={"Content creation"} statement={"Knowledge is strength, let's spread it."} cta={"Subscribe"}/>
             </Fade>
            
 
 
             <Fade left="true">
-                <PassionBar img={"https://i.imgur.com/FZuZNNZ.png"} title={"Sales"} statement={"We never lose, we either win or learn."} cta={"Sponsor me"}/>
+                <PassionBar link={"https://cash.app/$shCherx"} img={"https://i.imgur.com/FZuZNNZ.png"} title={"Sales"} statement={"We never lose, we either win or learn."} cta={"Sponsor me"}/>
             </Fade>
             
 

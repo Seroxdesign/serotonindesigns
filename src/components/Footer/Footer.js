@@ -8,9 +8,13 @@ export default function Footer() {
         <div className="footer-wrapper">
             <div className="footer-top">
                 <h3 className="site-foot-head">Thank you for making it till the end</h3>
+
+                <Link to={"/contact"}>
                 <button className="cta-end">
                     Let's talk
                 </button>
+                </Link>
+               
             </div>
 
             <div className="footer-bottom">
@@ -24,7 +28,7 @@ export default function Footer() {
                             </div>
                         </Link>
                         
-                        <Link to={"/"}>
+                        <Link to={"/blogs"}>
                             <div className="btn-nav-foot">
                                 <img className="footer-img" src="https://i.imgur.com/lAVLGhE.png" alt="Blog page icon"></img>
                                 <h5 className="footer-head">Blog</h5>
@@ -43,26 +47,27 @@ export default function Footer() {
                 <div className="site-contact">
                     <h4 className="site-foot-header">Contact</h4>
                     <div className="site-group">
-                        <Link to={"/"}>
+                        <a target="_blank" href={"https://www.linkedin.com/in/sherif-sky-cherfa-346b85202/"}>
                             <div className="btn-nav-foot">
                                 <img className="footer-img" src="https://i.imgur.com/tF3Cmdv.png" alt="home page icon"></img>
                                 <h5 className="footer-head">LinkdIn</h5>
                             </div>
-                        </Link>
+                        </a>
                         
-                        <Link to={"/"}>
+                        <a href="tel:8457180480" >
                             <div className="btn-nav-foot">
                                 <img className="footer-img" src="https://i.imgur.com/mp7ihsw.png" alt="Blog page icon"></img>
                                 <h5 className="footer-head">Call</h5>
                             </div>
-                        </Link>
-
-                        <Link to={"/contact"}>
+                        </a>
+                       
+                        <a href = "sherifcherfa@gmail.com">
                             <div className="btn-nav-foot">
                                 <img className="footer-img" src="https://i.imgur.com/0yH5aFM.png" alt="Contact page icon"></img>
                                 <h5 className="footer-head">Email</h5>
                             </div>
-                        </Link>
+                        </a>
+                 
                     </div>
                 </div>
 

@@ -10,17 +10,17 @@ export default function SkillCard(props) {
 
             <Fade bottom="true">
             <div className="skill-grid">
-                <MiniCard title={props.title1} img={props.img1} alt={""}/>
+                <MiniCard title={props.title1} img={props.img1} link={props.link1} alt={""}/>
 
-                <MiniCard title={props.title2} img={props.img2} alt={""}/>
+                <MiniCard title={props.title2} img={props.img2} link={props.link2} alt={""}/>
 
-                <MiniCard title={props.title3} img={props.img3} alt={""}/>
+                <MiniCard title={props.title3} img={props.img3} link={props.link3} alt={""}/>
                       
-                <MiniCard title={props.title4} img={props.img4} alt={""}/>
+                <MiniCard title={props.title4} img={props.img4} link={props.link4}  alt={""}/>
               
-                <MiniCard title={props.title5} img={props.img5} alt={""}/>
+                <MiniCard title={props.title5} img={props.img5} link={props.link5} alt={""}/>
               
-                <MiniCard title={props.title6} img={props.img6} alt={""}/>
+                <MiniCard title={props.title6} img={props.img6} link={props.link6} alt={""}/>
             </div>
             </Fade>
 

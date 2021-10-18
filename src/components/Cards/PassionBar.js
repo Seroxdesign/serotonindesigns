@@ -12,7 +12,9 @@ export default function PassionBar(props) {
                 <div className="passion-collection">
                     <h3 className="passion-header">{props.title}</h3>
                     <p className="passion-para">{props.statement}</p>
+                    <a href={props.link} target="_blank">
                     <button className="passion-cta">{props.cta}</button>
+                    </a>
                 </div>
             </div>
   
