@@ -33,7 +33,9 @@
     .section-1{
         height: 100%;
         width: 100%;
-
+        overflow-x: hidden;
+       
+       
     }
 
     
@@ -41,6 +43,9 @@
         height: 100%;
         width: 100%;
         margin-top: 2em;
+        overflow-x: hidden;
+       
+       
     }
 
     .media-grid{

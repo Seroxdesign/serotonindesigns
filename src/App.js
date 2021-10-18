@@ -1,10 +1,10 @@
 import './App.css';
 
 import Homepage from 'pages/Homepage/Homepage';
-import AboutPage from 'pages/About/AboutPage'
 import ContactPage from 'pages/Contact/ContactPage';
-
-
+import SkillPage from 'pages/SkillPage/SkillPage';
+import BlogPage from 'pages/Blog/BlogPage';
+import BlogDirectory from 'pages/Blog/BlogDirectory';
 
 import {
   BrowserRouter as Router,
@@ -20,8 +20,10 @@ function App() {
     
           <Switch>
             <Route exact path="/" component={Homepage}></Route>
-            <Route exact path="/about" component={AboutPage}></Route>
             <Route exact path="/contact" component={ContactPage}></Route>
+            <Route exact path="/skill" component={SkillPage}></Route>
+            <Route exact path="/blogs" component={BlogDirectory}></Route>
+            <Route exact path="/blog" component={BlogPage}></Route>
           </Switch>
 
       </Router>

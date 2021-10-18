@@ -14,7 +14,7 @@ export default function DropDown() {
             </li>
 
             <li className="menu-item"> 
-                <Link to={"/"}><h3>Blog</h3></Link>
+                <Link to={"/blogs"}><h3>Blog</h3></Link>
             </li>
         </ul>
     )

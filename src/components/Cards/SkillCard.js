@@ -8,35 +8,23 @@ export default function SkillCard(props) {
         <div className="skill-wrapper">
             <Header title={props.title}  color={props.color}/>
 
+            <Fade bottom="true">
             <div className="skill-grid">
-                <Fade bottom="true">
-                    <MiniCard title={props.title1} img={props.img1} alt={""}/>
-                </Fade>
+                <MiniCard title={props.title1} img={props.img1} alt={""}/>
 
-              <Fade bottom="true">
-                 <MiniCard title={props.title2} img={props.img2} alt={""}/>
-              </Fade>
+                <MiniCard title={props.title2} img={props.img2} alt={""}/>
 
-              <Fade bottom="true">
                 <MiniCard title={props.title3} img={props.img3} alt={""}/>
-              </Fade>
-
-              <Fade bottom="true">
+                      
                 <MiniCard title={props.title4} img={props.img4} alt={""}/>
-              </Fade>
-
-              <Fade bottom="true">  
-                  <MiniCard title={props.title5} img={props.img5} alt={""}/>
-              </Fade>
-
-              <Fade bottom="true">
+              
+                <MiniCard title={props.title5} img={props.img5} alt={""}/>
+              
                 <MiniCard title={props.title6} img={props.img6} alt={""}/>
-              </Fade>
-              
-               
-              
-               
             </div>
+            </Fade>
+
+        
         </div>
     )
 }
