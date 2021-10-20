@@ -8,7 +8,7 @@ export default function SkillCard(props) {
         <div className="skill-wrapper">
             <Header title={props.title}  color={props.color}/>
 
-            <Fade bottom="true">
+            <Fade left="true">
             <div className="skill-grid">
                 <MiniCard title={props.title1} img={props.img1} link={props.link1} alt={""}/>
 

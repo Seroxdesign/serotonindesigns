@@ -11,7 +11,7 @@
     .scroller{
         height: 90%;
         margin-top: 1em;
-        width: 400vw;
+        width: 250vw;
         overflow-x: scroll;
         display: flex;
         flex-direction: row;
@@ -27,10 +27,153 @@
         width: 70vw;
         margin-left: 1em;
         background-color: grey;
+        display: grid;
+        grid-template-rows: 80% 20%;
+    }
     
+    .bottom-card{
+        grid-row: 2;
+        background-color: #3e3e3e;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .btn-job{
+    
+        height: 40%;
+        width: 70%;
+        border-radius: 50px;
+        background-color:  #3e3e3e;
+        border: 2px solid #1efeff ;
+        color: #1efeff;
+       
+    }
+
+    .top-card{
+        grid-row: 1;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1em;
+        display: grid;
+        grid-template-rows: 12% 28% 60%; 
+    }
+
+    .skill-compilation{
+        height: 100%;
+        width: 100%;
+
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5em;
+    }
+
+    .skill{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:#3e3e3e;
+    }
+
+    .top-c-para{
+        font-size: small;
+        width: 90%;
+    }
+
+    .skill-img-work{
+        height: 3em;
+        filter: brightness(0) invert(1);
+    }
+
+    .skill-t-t{
+        font-size: xx-small;
+        text-align: center;
+        color: white;
+        margin-top: 0.5em;
+    }
+
+    .top-c-para{
+        color: white;
+        font-weight: 300;
+    }
+
+    .top-header-title{
+        color: #303030;
     }
 }
 
 @media only screen and (min-width: 1024px){
-    
+    .scroller{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .job-card-wrapper{
+        border: 2px solid #1efeff;
+        width: 30%;
+        height: 60vh;
+        margin-left: 2%;
+        background-color: #303030;
+        margin-top: 1em;
+        color: white;
+        box-sizing: border-box;
+        padding: 1em;
+    }
+
+    .skill-compilation{
+        margin-top: 1em;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 32vh;
+        grid-gap: 1em;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .skill{
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .skill-img-work{
+        width: 3vw;
+        height: 3vw;
+        filter: brightness(0) invert(1);
+    }
+    .skill-t-t{
+        margin-top: 0.5em;
+        font-weight: 300;
+    }
+
+    .top-header-title{
+        text-align: center;
+        color: #1efeff;
+    }
+
+    .top-c-para{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 1em;
+        font-weight: 200;
+    }
+
+    .btn-job{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 1.2em;
+        height: 5vh;
+        border-radius: 50px;
+        background-color: #303030;
+        color: #1efeff;
+        border: 3px solid #1efeff;
+    }
 }

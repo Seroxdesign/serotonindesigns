@@ -90,5 +90,43 @@
 }
 
 @media only screen and (min-width: 1024px){
-    
+    .footer-wrapper{
+        height: 50vh;
+        width: 100%;
+        background-color: #303030;
+        overflow-x: hidden;
+    }
+
+    .footer-bottom{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .btn-nav-foot{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2em;
+        border-bottom: 2px solid white;
+        height: 3.5em;
+        margin-left: 25%;
+    }
+
+    .footer-img{
+        width: 2vw;
+        height: 2vw;
+        filter: brightness(0) invert(1);
+    }
+
+    .site-foot-header{
+        text-align: center;
+        color: white;
+        margin-top: 3em;
+    }
+
+    .footer-top{
+        display: none;
+    }
 }

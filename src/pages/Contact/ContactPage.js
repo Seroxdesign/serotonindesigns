@@ -12,6 +12,7 @@ export default class ContactPage extends Component {
         this.dropDown = React.createRef();
         this.state={
             nav_status: false,
+            message_bool: false,
         }
     }
 
@@ -32,6 +33,19 @@ export default class ContactPage extends Component {
         }
 
     }
+    
+    message_sent = () => {
+        this.setState({
+            message_bool: true,
+        })
+    }
+
+    close_message = () => {
+        this.setState({
+            message_bool: false,
+        })
+    }
+
     render() {
         return (
             <div className="page-wrapper">
@@ -46,7 +60,7 @@ export default class ContactPage extends Component {
                   
 
                     <div className="section-2" style={{marginTop: '-0.5em'}}>
-                    <a id="consultation"><ContactForm /></a>
+                        <a id="consultation"><ContactForm sent={this.message_sent} /></a>
                          
                     </div>
 
@@ -57,6 +71,17 @@ export default class ContactPage extends Component {
                     <div className="section-2">
                          <Footer />
                     </div>
+                </div>
+
+                <div id={this.state.message_bool? 'message-sent' : 'invisible' }>
+                    <button className="close-contact-btn" onClick={this.close_message}>X</button>
+
+                    <h1 className="contact-header-announcement">Thank you for contacting me, I will try and get back to you as soon as possible</h1>
+            
+                    <img src="https://i.imgur.com/yQFkrr2.png" alt="" className="contact-status-img"></img>
+
+
+                    <DropDown />
                 </div>
             </div>
         )

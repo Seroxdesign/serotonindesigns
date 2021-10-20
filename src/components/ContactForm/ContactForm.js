@@ -7,7 +7,7 @@ import { init, sendForm } from 'emailjs-com';
 init('user_f9ouNImbr2IkYirbDRSGo');
 
 
-export default function ContactForm() {
+export default function ContactForm(props) {
 
     const [contactNumber, setContactNumber] = useState("000000");
   
@@ -57,9 +57,11 @@ export default function ContactForm() {
                
                     <textarea name='message' {...register('message')} placeholder='Message'/>
                  
-                    <input type='submit' id="submit-btn" value='Send' />
+                    <input type='submit' id="submit-btn" value='Send'  onClick={props.sent} />
                 </form>
             </div>
+
+            
         </div>
     )
 }

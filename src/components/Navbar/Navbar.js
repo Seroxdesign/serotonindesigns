@@ -1,8 +1,7 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-import { Link } from 'react-router-dom'
 
 export default function Navbar(props) {
     return (
@@ -11,6 +10,16 @@ export default function Navbar(props) {
             <button className="navbar-menu" onClick={props.dropdown}>
                 <img className="navbar-img" src="https://i.imgur.com/zF8oh0w.png" alt="menu icon"></img>
             </button>
+
+            <div className="desktop-nav-only">
+                <Link to={"/"}>
+                    Home
+                </Link>
+
+                <Link to={"/contact"}>
+                    Contact
+                </Link>
+            </div>
         </div>
     )
 }

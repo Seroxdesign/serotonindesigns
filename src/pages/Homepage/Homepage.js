@@ -68,7 +68,7 @@ export default class Homepage extends Component {
                         
                     </div>
 
-                    <div className="section-2">
+                    <div className="section-2" style={{display: 'none'}}>
                         <Header title={"My Blog"} color={"black"}/>
                         <BlogCard />
                     </div>

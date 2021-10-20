@@ -27,8 +27,43 @@
     .navbar-img{
         height: 6vh;
     }
+
+    .desktop-nav-only{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1024px){
+    .navbar-wrapper{
+        height: 6vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-img{
+        height: 0em;
+    }
+
+    .navbar-header{
+        margin-left: 1em;
+    }
+
+    .desktop-nav-only{
+        width: 30%;
+        margin-right: 1em;
+        height: 6vh;
+      
+     
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navbar-menu{
+        display: none;
+    }
     
 }

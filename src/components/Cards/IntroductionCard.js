@@ -1,6 +1,7 @@
 import React from 'react'
 import MainHeader from 'components/Headers/MainHeader'
 import Zoom from 'react-reveal/Zoom'
+import { Link } from 'react-router-dom'
 
 import './Cards.css'
 
@@ -11,8 +12,10 @@ export default function IntroductionCard() {
 
             </img>
 
+            <img src="https://i.imgur.com/s4vWOtX.jpg?1" className="intro-img-dt"></img>
+
             <Zoom>
-                <MainHeader title={"Hi, my name is Sherif, and I'm a web developer"} />
+                <MainHeader title={"Hi, my name is Sherif, and I'm a web developer."} />
             </Zoom>
            
 
@@ -23,12 +26,14 @@ export default function IntroductionCard() {
 
             <div className="btn-container">
             <Zoom>
-            <button className="intro-cta-btn">View my work</button>
+            <button className="intro-cta-btn" style={{display: 'none',}}>View my work</button>
             </Zoom>
                 
+            <Link to={"/contact"}>
             <Zoom>
-            <button className="intro-cta-btn">Hire me</button>
+                <button className="intro-cta-btn">Hire me</button>
             </Zoom>
+            </Link>
                 
             </div>
         </div>

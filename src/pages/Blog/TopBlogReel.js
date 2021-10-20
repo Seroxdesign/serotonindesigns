@@ -9,6 +9,11 @@ export default class TopBlogReel extends Component {
          
                 <div className="scroller">
 
+                    <h2 className="under-construction">
+                    This section is under construction, please return at a later date
+                    </h2>
+
+                    
                 </div>
             </div>
         )

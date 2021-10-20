@@ -5,3 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: auto;
 }
+
+img{
+  height: 5vh;
+}
+
+button{
+  cursor: pointer;
+}
