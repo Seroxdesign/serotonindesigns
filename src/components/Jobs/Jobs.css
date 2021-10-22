@@ -46,7 +46,7 @@
         border-radius: 50px;
         background-color:  #3e3e3e;
         border: 2px solid #1efeff ;
-        color: #1efeff;
+      
        
     }
 
@@ -99,10 +99,17 @@
     .top-c-para{
         color: white;
         font-weight: 300;
+        margin-top: 6em;
     }
 
     .top-header-title{
         color: #303030;
+    }
+
+    .circular-img{
+        border-radius: 50%;
+        height: 20vh;
+        width: 20vh;
     }
 }
 
