@@ -46,7 +46,7 @@
         border-radius: 50px;
         background-color:  #3e3e3e;
         border: 2px solid #1efeff ;
-      
+        color: #1efeff;
        
     }
 
@@ -56,60 +56,36 @@
         width: 100%;
         box-sizing: border-box;
         padding: 1em;
-        display: grid;
-        grid-template-rows: 12% 28% 60%; 
-    }
-
-    .skill-compilation{
-        height: 100%;
-        width: 100%;
-
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 0.5em;
-    }
-
-    .skill{
-       
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color:#3e3e3e;
     }
 
+  
+
+ 
+
     .top-c-para{
-        font-size: small;
+        font-size: medium;
         width: 90%;
-    }
-
-    .skill-img-work{
-        height: 3em;
-        filter: brightness(0) invert(1);
-    }
-
-    .skill-t-t{
-        font-size: xx-small;
         text-align: center;
-        color: white;
-        margin-top: 0.5em;
+       
+        margin-top: 1em;
     }
 
-    .top-c-para{
-        color: white;
-        font-weight: 300;
-        margin-top: 6em;
-    }
-
+  
     .top-header-title{
         color: #303030;
+        text-align: center;
+        font-size: x-large;
     }
 
     .circular-img{
         border-radius: 50%;
         height: 20vh;
         width: 20vh;
+        margin-top: 1em;
     }
 }
 

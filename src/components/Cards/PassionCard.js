@@ -21,7 +21,7 @@ export default function PassionCard(props) {
 
 
             <Fade left="true">
-                <PassionBar link={"https://cash.app/$shCherx"} img={"https://i.imgur.com/FZuZNNZ.png"} title={"Sales"} statement={"We never lose, we either win or learn."} cta={"Sponsor me"}/>
+                <PassionBar link={"https://cash.app/$shCherx"} img={"https://i.imgur.com/FZuZNNZ.png"} title={"Sales"} statement={"We never lose, we either win or learn."} cta={"Support me"}/>
             </Fade>
             
 
