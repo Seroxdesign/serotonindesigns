@@ -25,10 +25,12 @@ export default function IntroductionCard() {
             </p>
 
             <div className="btn-container">
-            <Zoom>
-            <button className="intro-cta-btn" style={{display: 'none',}}>View my work</button>
+            <Link to={"/work"}>
+            <Zoom >
+            <button className="intro-cta-btn">View my work</button>
             </Zoom>
-                
+            </Link>   
+
             <Link to={"/contact"}>
             <Zoom>
                 <button className="intro-cta-btn">Hire me</button>

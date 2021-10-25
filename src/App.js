@@ -1,5 +1,5 @@
 import './App.css';
-
+import JobPage from 'pages/Jobs/JobPage';
 import Homepage from 'pages/Homepage/Homepage';
 import ContactPage from 'pages/Contact/ContactPage';
 import SkillPage from 'pages/SkillPage/SkillPage';
@@ -24,6 +24,7 @@ function App() {
             <Route exact path="/skill" component={SkillPage}></Route>
             <Route exact path="/blogs" component={BlogDirectory}></Route>
             <Route exact path="/blog" component={BlogPage}></Route>
+            <Route exact path="/work" component={JobPage}></Route>
           </Switch>
 
       </Router>

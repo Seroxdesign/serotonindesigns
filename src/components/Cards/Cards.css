@@ -8,7 +8,7 @@
 
     .intro-img{
        width: 100vw;
-       height: 27%;
+       height: 30%;
     }
 
     .intro-para{
@@ -110,6 +110,33 @@
     .intro-img-dt{
         display: none;
     }
+
+    .job-card-intro-wrapper{
+        height: 100%;
+        width: 100%;
+        background-color: #303030;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .job-bottom{
+        background-image: url('https://i.imgur.com/c2m9UhK.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+   .work-display-img{
+       width: 100vw;
+       height: 98.5%;
+   }
+
+   .work-para{
+       margin-left: 1em;
+       width: 90%;
+       margin-top: 1em;
+       font-weight: 300;
+       color: white;
+   }
 }
 
 @media only screen and (min-width: 1024px){
