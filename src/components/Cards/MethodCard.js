@@ -9,19 +9,19 @@ export default function MethodCard(props) {
 
 
             <Fade left="true">
-            <PassionBar img={"https://i.imgur.com/1XSTSdH.png"} title={"Grow a Network"} statement={"No investments, no barrier to entry. All you need is you."} cta={"Read More"}/>
+            <PassionBar img={"https://i.imgur.com/1XSTSdH.png"} title={"Growing Networks"} statement={"No investments, no barrier to entry. All you need is you."} cta={"Read More"}/>
             </Fade>
            
 
 
             <Fade left="true">
-                <PassionBar img={"https://i.imgur.com/E3NsL7R.png"} title={"Market Yourself"} statement={"Understand your network, solve their problems. Create strong relationships."} cta={"Read More"}/>
+                <PassionBar img={"https://i.imgur.com/E3NsL7R.png"} title={"Marketing"} statement={"Understand your network, solve their problems. Create strong relationships."} cta={"Read More"}/>
             </Fade>
            
 
 
             <Fade left="true">
-                <PassionBar img={"https://i.imgur.com/TPJ8bwK.png"} title={"Automate"} statement={"Create a defined system, digitize, then automate. "} cta={"Read More"}/>
+                <PassionBar img={"https://i.imgur.com/TPJ8bwK.png"} title={"Automation"} statement={"Create a defined system, digitize, then automate. "} cta={"Read More"}/>
             </Fade>
             
         

@@ -11,7 +11,7 @@ export default function JobIntroCard(props) {
                 <p className="work-para">
                     If you've been developing your business, you know that it's an endless task.
                     <br></br>
-                    
+                    <br></br>
                     Our time here is limited, and our time is valuable, which is why we believe in working smart rather than hard.
                     <br></br>
                     <br></br>

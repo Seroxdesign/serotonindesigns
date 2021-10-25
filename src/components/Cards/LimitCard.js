@@ -9,7 +9,8 @@ export default function LimitCard() {
 
                 <p className="work-para">
                 The truth is that financial freedom is the result of years of hard, consistent, and repetitive work.
-               
+                <br/>
+                <br/>
                 To generate truly passive income, you must first generate active income and then build scalable and automated systems.
                 <br/>
                 <br/>
