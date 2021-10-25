@@ -27,13 +27,13 @@ export default function IntroductionCard() {
             <div className="btn-container">
             <Link to={"/work"}>
             <Zoom >
-            <button className="intro-cta-btn">View my work</button>
+            <button className="intro-cta-btn" >View my work</button>
             </Zoom>
             </Link>   
 
             <Link to={"/contact"}>
             <Zoom>
-                <button className="intro-cta-btn">Hire me</button>
+                <button className="intro-cta-btn" id={"mobile-only"}>Hire me</button>
             </Zoom>
             </Link>
                 

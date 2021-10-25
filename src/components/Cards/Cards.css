@@ -268,4 +268,8 @@
    a{
     color: #1efeff;
    }
+
+   #mobile-only{
+       display: none;
+   }
 }
