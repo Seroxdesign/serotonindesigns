@@ -30,10 +30,7 @@ export default function ContactForm(props) {
 
     return (
         <div className="contact-form-wrapper">
-            <div className="">
-                <Header title={"Contact Me"} color={"black"}/>
-            </div>
-
+          
             <div className="contact-options">
                 <div className="contact-option">
                     <img className="circle-option" src="https://i.imgur.com/vxNshty.png" alt=""></img>

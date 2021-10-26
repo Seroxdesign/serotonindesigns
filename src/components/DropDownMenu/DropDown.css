@@ -14,7 +14,7 @@
         width: 80vw;
         
         display: flex;
-        align-items: center;
+        padding-top: 1.5em;
         justify-content: center;
         color: black;
         background-color: #303030;

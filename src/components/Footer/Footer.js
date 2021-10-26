@@ -28,10 +28,10 @@ export default function Footer() {
                             </div>
                         </Link>
                         
-                        <Link to={"/blogs"}>
+                        <Link to={"/work"}>
                             <div className="btn-nav-foot">
                                 <img className="footer-img" src="https://i.imgur.com/lAVLGhE.png" alt="Blog page icon"></img>
-                                <h5 className="footer-head">Blog</h5>
+                                <h5 className="footer-head">Work</h5>
                             </div>
                         </Link>
 

@@ -8,6 +8,7 @@ import Job from 'components/Jobs/Job'
 import BlogCard from 'components/Cards/BlogCard'
 import Footer from 'components/Footer/Footer'
 import DropDown from 'components/DropDownMenu/DropDown'
+import Media from 'components/Sections/Media'
 
 import('pages/PagesStyles.css')
 
@@ -73,8 +74,9 @@ export default class Homepage extends Component {
                         <BlogCard />
                     </div>
 
-                    <div className="section-2"> 
-                        <SkillCard link6={"https://www.tiktok.com/@sherifcherfa?lang=en"} link5={"https://www.facebook.com/profile.php?id=100060608779291"} link4={"https://twitter.com/MrSerotoninx"} link3={"https://www.instagram.com/serotonin_experience/"} link2={"https://www.youtube.com/channel/UCeNLqAes-kUMjWksPA6d-BA"} link1={"https://www.linkedin.com/in/sherif-sky-cherfa-346b85202/"} img1={"https://i.imgur.com/RiLBaNc.png"} img2={"https://i.imgur.com/w05WNrp.png"} img3={"https://i.imgur.com/F97pQA0.png"} img4={"https://i.imgur.com/kaBe4fY.png"} img5={"https://i.imgur.com/D5UaqJo.png"} img6={"https://i.imgur.com/t6GJPzJ.png"} title={"Connect with me"}  color={"black"}  title1={"LinkedIn"} title2={"Youtube"} title3={"Instagram"}  title4={"Twitter"} title5={"Facebook"} title6={"TikTok"}/>
+      
+                    <div className="section-2">
+                        <Media link6={"https://www.fiverr.com/skybye99?up_rollout=true"} link5={"https://www.facebook.com/profile.php?id=100060608779291"} link4={"https://twitter.com/MrSerotoninx"} link3={"https://www.instagram.com/serotonin_experience/"} link2={"https://www.youtube.com/channel/UCeNLqAes-kUMjWksPA6d-BA"} link1={"https://www.linkedin.com/in/sherif-sky-cherfa-346b85202/"} img1={"https://i.imgur.com/RiLBaNc.png"} img2={"https://i.imgur.com/w05WNrp.png"} img3={"https://i.imgur.com/F97pQA0.png"} img4={"https://i.imgur.com/kaBe4fY.png"} img5={"https://i.imgur.com/D5UaqJo.png"} img6={"https://i.imgur.com/v6LaQek.png"} />
                     </div>
 
                     <div className="section-2">

@@ -11,7 +11,7 @@ export default class Job extends Component {
         }
     }
 
-    render(props) {
+    render() {
         return (
             <div className="job-wrapper">
                 

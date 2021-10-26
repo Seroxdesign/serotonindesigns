@@ -3,12 +3,12 @@
         height: 100%;
         width: 100%;
         display: grid;
-        grid-template-rows: 12% 15% 73%;
+        grid-template-rows:  15% 85%;
        
     }
 
     .contact-options{
-        grid-row: 2;
+        grid-row: 1;
         height: 100%;
         width: 100%;
         background-color: #303030;
@@ -18,7 +18,7 @@
     }
 
     .contact-form{
-        grid-row: 3;
+        grid-row: 2;
         background-color: #303030;
      
     }
