@@ -3,7 +3,7 @@ import Header from 'components/Headers/Header'
 
 export default function LimitCard() {
     return (
-        <div className="job-card-intro-wrapper">
+        <div className="job-card-intro-wrapper" id={"mobile-only"}>
              <div className="job-top">
                 <Header title={"The Truth"} color={"#1efeff"}/>
 

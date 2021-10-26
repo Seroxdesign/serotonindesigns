@@ -142,6 +142,10 @@
        font-weight: 300;
        color: white;
    }
+
+   #desktop-only{
+       display: none;
+   }
 }
 
 @media only screen and (min-width: 1024px){
@@ -166,6 +170,7 @@
         width: 100%;
         background-color: #303030;
         height: 40vh;
+       
     }
 
    .card-wrapper{
@@ -277,4 +282,25 @@
    #mobile-only{
        display: none;
    }
+
+   .job-card-intro-wrapper{
+       background-color: #303030;
+       height: 100%;
+
+   }
+
+   .work-para{
+       width: 50%;
+       margin-left: 25%;
+       text-align: center;
+       color: white;
+       margin-top: 1em;
+   }
+
+   .job-intro-im{
+        margin-top: 1em;
+       width: 15vw;
+       margin-left: 42.5vw;
+        height: 28vh;
+    }
 }

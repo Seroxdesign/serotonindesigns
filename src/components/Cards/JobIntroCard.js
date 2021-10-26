@@ -18,11 +18,11 @@ export default function JobIntroCard(props) {
                     We aspire to design solutions that automate the processes that keep your business functioning, to create more time for the things that really matter.
                 </p>
 
-            
+                <img className="job-intro-im" src="https://i.imgur.com/c2m9UhK.png" alt="" id={"desktop-only"}></img>
             </div>
 
             <div className="job-bottom">
-            
+                
             </div>
 
            

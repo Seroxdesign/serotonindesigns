@@ -7,7 +7,7 @@ export default function Media(props) {
             <div className="media-talk">
                 <h2 className="media-sec-header">Connect with us</h2>
 
-                <p className="media-sec-para">
+                <p className="media-sec-para" id={"mobile-only"}>
                 Whether you're interested in growing your business or starting a new one, we can help.
                 <br/>
                 <br/>

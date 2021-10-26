@@ -16,6 +16,10 @@ export default function Navbar(props) {
                     Home
                 </Link>
 
+                <Link to={"/work"}>
+                    Work
+                </Link>
+
                 <Link to={"/contact"}>
                     Contact
                 </Link>
