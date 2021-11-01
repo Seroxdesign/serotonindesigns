@@ -3,7 +3,7 @@
         margin-top: 10%;
         height: 90%;
         width: 100%;
-        background-color: #303030;
+        background-color:#292828;
         box-sizing: border-box;
         padding: 1em;
         display: grid;
@@ -11,7 +11,7 @@
     }
 
     .media-talk{
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #d5212e;
     }
 
     .media-icons{
@@ -21,8 +21,7 @@
     }
 
     .media-icon{
-        height: 8vh;
-        filter: brightness(0) invert(1);
+        height: 10vh;
      
         display: flex;
         align-items: center;
@@ -37,12 +36,15 @@
 
     .media-sec-header{
         margin-top: 1em;
-        color: #1efeff;
-
+        color: white;
+        text-align: center;
     }
     .media-sec-para{
         margin-top: 1.5em;
-        color: white;
+        color: black;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
     }
 
     .contact-info-card{

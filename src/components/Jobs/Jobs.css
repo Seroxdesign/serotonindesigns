@@ -3,8 +3,8 @@
     .job-wrapper{
         height: 80%;
         width: 100vw;
-        background-color: #303030;
-        margin-top: 1.5em;
+        background-color: #292828;
+        margin-top: 1em;
         
     }
 
@@ -24,11 +24,12 @@
 
     .job-card-wrapper{
         margin-top: 1em;
-        width: 70vw;
+        width: 75vw;
         margin-left: 1em;
         background-color: rgb(216, 214, 214);
         display: grid;
         grid-template-rows: 80% 20%;
+        box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
     }
     
     .bottom-card{
@@ -45,8 +46,8 @@
         width: 70%;
         border-radius: 50px;
         background-color:  #202020;
-        border: 2px solid #1efeff ;
-        color: #1efeff;
+        border: 2px solid #bc1823 ;
+        color: #bc1823;
        
     }
 

@@ -6,7 +6,7 @@ import './Navbar.css'
 export default function Navbar(props) {
     return (
         <div className="navbar-wrapper">
-            <h5 className="navbar-header">Serotonin Design</h5>
+            <h5 className="navbar-header"></h5>
             <button className="navbar-menu" onClick={props.dropdown}>
                 <img className="navbar-img" src="https://i.imgur.com/zF8oh0w.png" alt="menu icon"></img>
             </button>
@@ -16,8 +16,8 @@ export default function Navbar(props) {
                     Home
                 </Link>
 
-                <Link to={"/work"}>
-                    Work
+                <Link to={"/links"}>
+                    Links
                 </Link>
 
                 <Link to={"/contact"}>

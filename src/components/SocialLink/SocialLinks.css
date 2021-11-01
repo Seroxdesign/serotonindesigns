@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1023px){
+    .social-link-wrapper{
+        width: 80%;
+        height: 10vh;
+        margin-left: 10%;
+        border: 3px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 1em;
+        margin-top: 1em;
+    }
+
+    .social-titles{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .link-link{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    
+}

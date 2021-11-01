@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1023px){
+    .mailing-wrapper{
+        height: 90%;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 5%;
+        box-sizing: border-box;
+        padding: 1em;
+        background-color: #303030;
+    }
+
+    .mailing-input{
+        height: 3em;  
+    }
+
+    .mailing-i-container{
+        margin-top: 1em;
+    }
+
+    .mailing-header{
+        color: #eb3340;
+        margin-left: 0.6em;
+        margin-top: 1em;
+    }
+
+    .mailing-para{
+        width: 90%;
+        margin-left: 1em;
+        color: rgb(216, 216, 216);
+        margin-top: 1em;
+    }
+
+   
+    .mailing-btn{
+        background-color: #303030;
+        border: 2px solid #eb3340;
+        color: #eb3340;
+        margin-top: 2em;
+        margin-left: 65%;
+        border-radius: 50px;
+        width: 30%;
+        height: 3em;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    
+}

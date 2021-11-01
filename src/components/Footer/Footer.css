@@ -3,90 +3,45 @@
         height: 100%;
         width: 100%;
         display: grid;
-        grid-template-rows: 20% 80%;
+        grid-template-rows: 60% 40%;
     }
 
     .footer-top{
         grid-row: 1;
         
     }
+    
 
     .footer-bottom{
         grid-row: 2;
         height: 100%;
         width: 100%;
-        background-color: #303030;
+        background-color:#292828;
         display: grid;
         grid-template-rows: repeat(3, 1fr);
     }
 
-    .site-foot-header{
-        color: #1effff7f;
-        margin-left: 1em;
-        margin-top: 1em;
-        font-weight: 300;
-        text-align: center;
-        border-bottom: 3px solid #1effff7f;
-        width: 90%;
-        height: 1.8em;
-    }
-
-    .site-group{
-        height: 60%;
-        width: 90%;
-        margin-top: 2%;
-        margin-left: 5%;
-       
+    .foot-row{
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        padding: 1em;
+        padding-top: 2em;
+        width: 80%;
+        margin-left: 10%;
     }
 
-    .footer-img{
-        height: 5vh;
-        filter: brightness(0) invert(1);
-    }
+   .footer-link{
+       color: rgb(179, 179, 179);
+       font-size: small;
+   }
 
-    .btn-nav-foot{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    a{
-        color: white;
-        text-decoration: none;
-    }
-
-    .footer-head{
-        margin-top: 1em;
-        font-weight: 400;
-    }
-
-    .site-foot-head{
-        color: #303030;
-        margin-left: 1em;
-        margin-top: 1em;
-        font-weight: 600;
-        text-align: center;
-        border-bottom: 3px solid #303030;
-        width: 90%;
-        height: 1.8em;
-    }
-
-    .cta-end{
-        margin-left: 20vw;
-        margin-top: 1em;
-        height: 6vh;
-        width: 60vw;
-        border-radius: 50px;
-        background-color: #F3EEED;
-        color: #303030;
-        font-weight: 600;
-        border: 3px solid #303030;
-    }
+   .foot-head{
+       text-align: center;
+       margin-top: 2em;
+       font-size: large;
+       color: white;
+   }
 }
 
 @media only screen and (min-width: 1024px){

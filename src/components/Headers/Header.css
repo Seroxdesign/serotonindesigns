@@ -13,22 +13,35 @@
         
     }
 
-    .main-header-wrapper{
-        color: #1efeff;
-        margin-left: 10%;
-        width: 80%;
-        margin-top: 1em;
-        font-size: x-large;
+    .intro-img{
+        width: 100vw;
     }
 
+    .main-header-wrapper{
+        color: #dc313c;
+        margin-left: 10%;
+        width: 80%;
+        margin-top: 1.5em;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .a-h{
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        color: #5f5d5d;
+        font-weight: 300;
+        margin-top: 1em;
+    }
 }
 
 @media only screen and (min-width: 1024px){
     .main-header-wrapper{
         margin-top: 1em;
-        color: #1efeff;
+        color: #d5212e;
         text-align: center;
-        border-bottom: 5px solid #1efeff;
+        border-bottom: 5px solid #d5212e;
         width: 50%;
         margin-left: 25%;
         height: 1.5em;

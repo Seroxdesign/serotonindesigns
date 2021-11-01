@@ -5,11 +5,11 @@
         height: 100%;
         width: 100vw;
         box-sizing: border-box;
-        background-color: #F3EEED;
+    
         overflow-x: hidden;
        
        
-        background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+        background-image: url("https://www.transparenttextures.com/patterns/arches.png");;
 
     }
 
@@ -48,6 +48,25 @@
        
     }
 
+    .circular-img-link{
+        height: 35vh;
+        width: 35vh;
+        border-radius: 50%;
+        margin-left: 18vw;
+        margin-top: 2em;
+        border: 5px solid #eb333f36; 
+    }
+
+    .link-header2{
+        text-align: center;
+        margin-top: 0.5em;
+    }
+
+    .link-header{
+        margin-top: 1em;
+        text-align: center;
+    }
+
     .media-grid{
         margin-top: 5%;
         height: 45%;
@@ -65,8 +84,8 @@
         height: 5vh;
         margin-top: 0.7em;
         background-color: #303030;
-        color: #1efeff;
-        border: 2px solid #1efeff;
+        color: #bc1823;
+        border: 2px solid #bc1823;
         border-radius: 50px;
     }
 

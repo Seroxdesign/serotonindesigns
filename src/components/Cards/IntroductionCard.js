@@ -8,21 +8,25 @@ import './Cards.css'
 export default function IntroductionCard() {
     return (
         <div className="card-wrapper">
-            <img className="intro-img" src="https://i.imgur.com/Wa26fRG.jpg?1" alt="">
+            <img className="intro-img" src="https://i.imgur.com/PGwLKVS.png?1" alt="">
 
             </img>
 
             <img src="https://i.imgur.com/s4vWOtX.jpg?1" className="intro-img-dt"></img>
 
             <Zoom>
-                <MainHeader title={"Hi, my name is Sherif, and I'm a web developer."} />
+                <MainHeader title={"Amy Sky"} />
+               
             </Zoom>
            
 
             <p className="intro-para">
-            The first thing you need to know about me is I'm a lifelong learner. I am a web developer, social media manager and a traveler.
-            I am especially interested in automating the boring things in life, to create more time for myself and the ones I love.
+                My name is Amy, I'm a 22 year gamer and content creator from the UK.
+                <br/>
+                 I work in social media management and I've been doing this for the last two years.
             </p>
+
+           
 
             <div className="btn-container">
             <Link to={"/work"}>
@@ -33,11 +37,13 @@ export default function IntroductionCard() {
 
             <Link to={"/contact"}>
             <Zoom>
-                <button className="intro-cta-btn" id={"mobile-only"}>Hire me</button>
+                <button className="intro-cta-btn inv" id={"mobile-only"}>Hire me</button>
             </Zoom>
             </Link>
                 
             </div>
+
+            <h6 className="a-h">Scroll down to read more about me and what I do.</h6>
         </div>
     )
 }

@@ -9,7 +9,7 @@ export default function JobLogoCard(props) {
             <div className="top-card">
                 <h3 className="top-header-title" >{props.title}</h3>
 
-                <img className="circular-img" src={props.img} alt="logo"></img>
+                <img className="circular-img" style={{display:'none'}} src={props.img} alt="logo"></img>
 
                 <p className="top-c-para"> 
                     {props.para}
