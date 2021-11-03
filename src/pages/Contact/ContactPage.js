@@ -4,7 +4,7 @@ import ContactForm from 'components/ContactForm/ContactForm'
 import DropDown from 'components/DropDownMenu/DropDown'
 import ContactInto from 'components/Sections/ContactInto'
 import Footer from 'components/Footer/Footer'
-import Media from 'components/Sections/Media'
+
 
 export default class ContactPage extends Component {
 
@@ -59,19 +59,13 @@ export default class ContactPage extends Component {
 
                 <div className="content-wrapper" >
                   
-                    <div className="section1">
-                    <ContactInto />
-                    </div>
 
                     <div className="section-2" style={{marginTop: '-0.5em'}}>
                         <a id="consultation"><ContactForm sent={this.message_sent} /></a>
                     </div>
 
-                    <div className="section-2">
-                    <Media link6={"https://www.fiverr.com/skybye99?up_rollout=true"} link5={"https://www.facebook.com/profile.php?id=100060608779291"} link4={"https://twitter.com/MrSerotoninx"} link3={"https://www.instagram.com/serotonin_experience/"} link2={"https://www.youtube.com/channel/UCeNLqAes-kUMjWksPA6d-BA"} link1={"https://www.linkedin.com/in/sherif-sky-cherfa-346b85202/"} img1={"https://i.imgur.com/RiLBaNc.png"} img2={"https://i.imgur.com/w05WNrp.png"} img3={"https://i.imgur.com/F97pQA0.png"} img4={"https://i.imgur.com/kaBe4fY.png"} img5={"https://i.imgur.com/D5UaqJo.png"} img6={"https://i.imgur.com/v6LaQek.png"} />
-                    </div>
 
-                    <div className="section-2">
+                    <div className="section-3">
                          <Footer />
                     </div>
                 </div>

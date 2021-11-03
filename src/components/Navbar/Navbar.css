@@ -2,15 +2,16 @@
     .navbar-wrapper{
         height: 8vh;
         width: 100vw;
-        position: absolute;
+        position:fixed;
         top: 0;
-        z-index: 3;
-        border-bottom: 3px solid rgb(0, 0, 0);
+        z-index: 4;
+        border-bottom: 03px solid rgb(0, 0, 0);
         background-color: white;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        box-sizing: content-box;
     }
 
     .navbar-header{

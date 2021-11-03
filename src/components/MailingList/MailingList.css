@@ -1,27 +1,24 @@
 @media only screen and (max-width: 1023px){
     .mailing-wrapper{
-        height: 90%;
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 5%;
-        border-radius: 5%;
+        height: 100%;
+        width: 100%;
         box-sizing: border-box;
         padding: 1em;
         background-color: #303030;
     }
 
     .mailing-input{
-        height: 3em;  
+        height: 2.5em;  
     }
 
     .mailing-i-container{
-        margin-top: 1em;
+        margin-top: 0.5em;
     }
 
     .mailing-header{
         color: #eb3340;
         margin-left: 0.6em;
-        margin-top: 1em;
+        margin-top: 0.7em;
     }
 
     .mailing-para{

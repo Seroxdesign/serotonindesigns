@@ -53,19 +53,19 @@ export default class Homepage extends Component {
                     </div>
 
                     <div className="section-2">
-                        <Header  title={"Connect with me"} color={"#292828"}/>
+                        <Header  title={"Connect with me"} color={"rgba(255,255,255,0.7)"}/>
                         <Job></Job>
                         
                     </div>
 
                     <div className="section-2">
-                        <Header  title={"For creators"} color={"#292828"}/>
+                        <Header  title={"For creators"} color={"rgba(255,255,255,0.7)"}/>
                         <Job></Job>
                         
                     </div>
                   
                     <div className="section-2" >
-                        <Header title={"Recommended Creators"} color={"#292828"}/>
+                        <Header title={"Recommended Creators"} color={"rgba(255,255,255,0.7)"}/>
                         <PassionCard />
                     </div>
 

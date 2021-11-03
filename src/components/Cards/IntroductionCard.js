@@ -8,9 +8,7 @@ import './Cards.css'
 export default function IntroductionCard() {
     return (
         <div className="card-wrapper">
-            <img className="intro-img" src="https://i.imgur.com/PGwLKVS.png?1" alt="">
-
-            </img>
+            <div className="intro-img"></div>
 
             <img src="https://i.imgur.com/s4vWOtX.jpg?1" className="intro-img-dt"></img>
 

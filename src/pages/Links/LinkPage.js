@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from 'components/Navbar/Navbar'
-import SocialLink from 'components/SocialLink/SocialLink'
+import Linksec from 'components/Sections/Linksec'
+import LinkCont from 'components/Sections/LinkCont'
 import Footer from 'components/Footer/Footer'
 import DropDown from 'components/DropDownMenu/DropDown'
 
@@ -46,22 +47,14 @@ export default class Homepage extends Component {
 
                 <div className="content-wrapper">
                     <div className="section-1">
-                        <img className="circular-img-link" src="https://i.imgur.com/Z76JJnp.jpg" alt=""></img>
-                        <h2 className="link-header2">AMYSKY</h2>
-                        <h2 className="link-header">Find me on:</h2>
-
-                        <div className="links-scroller">
-                            <SocialLink img={"https://i.imgur.com/cbHzfgE.png"} link={""} media={"insta"} title={"@Amysky99x"}/>
-                            <SocialLink />
-                            <SocialLink />
-                        </div>
+                       <Linksec />
                     </div>
 
-                    <div className="">
-                    
+                    <div className="section-3">
+                       <LinkCont />
                     </div>
 
-                    <div className="section-2">
+                    <div className="section-3">
                         <Footer />
                     </div>
                 </div>

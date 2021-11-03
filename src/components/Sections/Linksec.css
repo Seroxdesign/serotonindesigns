@@ -1,0 +1,56 @@
+
+@media only screen and (max-width: 1023px){
+
+    .link-sec{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #292828;
+    }
+
+    .link-continued{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2em;
+        background-color: #292828;
+
+    }
+
+    .links-scroller{
+        width: 100%;
+    }
+
+    .circular-img-link{
+        margin-top: 1em;
+        height: 25vh;
+        width: 25vh;
+        border-radius: 50%;
+        border: 5px solid #00000036; 
+        background-image: url('https://i.imgur.com/JwszZNZ.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+    }
+    
+    .link-header2{
+        color: rgba(255, 255, 255, 0.724);
+        text-align: center;
+        margin-top: 0.5em;
+    }
+    
+    .link-header{
+        color: rgba(255, 255, 255, 0.511);
+        margin-top: 0.5em;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px){
+    
+}

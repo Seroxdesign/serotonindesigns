@@ -5,13 +5,12 @@
         height: 100%;
         width: 100vw;
         box-sizing: border-box;
-    
         overflow-x: hidden;
-       
-       
         background-image: url("https://www.transparenttextures.com/patterns/arches.png");;
-
+        background-color: #303030;
     }
+
+  
 
     .dropdown-menu{
         width: 100vw;
@@ -24,7 +23,7 @@
     }
 
     .content-wrapper{
-        height: 100vh;
+        height: 100%;
         width: 100vw;
         box-sizing: border-box;
         padding-top: 8vh;
@@ -48,24 +47,13 @@
        
     }
 
-    .circular-img-link{
-        height: 35vh;
-        width: 35vh;
-        border-radius: 50%;
-        margin-left: 18vw;
-        margin-top: 2em;
-        border: 5px solid #eb333f36; 
+    
+    .section-3{
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
     }
-
-    .link-header2{
-        text-align: center;
-        margin-top: 0.5em;
-    }
-
-    .link-header{
-        margin-top: 1em;
-        text-align: center;
-    }
+   
 
     .media-grid{
         margin-top: 5%;

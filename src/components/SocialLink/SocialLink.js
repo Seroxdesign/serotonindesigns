@@ -8,8 +8,8 @@ export default function SocialLink(props) {
             <a className="link-link" href={props.link} target="_blank"><img src={props.img} className="link-im" alt=""></img></a>
 
             <div className="social-titles">
-                <h3 className="">{props.media}</h3>
-                <h3 className="" style={{marginLeft:'2em', color: '#303030'}}>{props.title}</h3>
+                <h3 className="head-s-1">{props.media}</h3>
+                <h3 className="head-s-2">{props.title}</h3>
             </div>
         </div>
     )
