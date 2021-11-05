@@ -20,28 +20,32 @@ export default function IntroductionCard() {
 
             <p className="intro-para">
                 My name is Amy, I'm a 22 year gamer and content creator from the UK.
-                <br/>
-                 I work in social media management and I've been doing this for the last two years.
             </p>
 
            
 
             <div className="btn-container">
-            <Link to={"/work"}>
+            <Link to={"/Links"}>
             <Zoom >
-            <button className="intro-cta-btn" >View my work</button>
+            <button className="intro-cta-btn" >View my Links</button>
             </Zoom>
             </Link>   
 
             <Link to={"/contact"}>
+            <Zoom >
+            <button className="intro-cta-btn" >Contact me</button>
+            </Zoom>
+            </Link>   
+
+            <Link to={"/"}>
             <Zoom>
-                <button className="intro-cta-btn inv" id={"mobile-only"}>Hire me</button>
+                <button className="intro-cta-btn inv" id={"mobile-only"}>18+</button>
             </Zoom>
             </Link>
                 
             </div>
 
-            <h6 className="a-h">Scroll down to read more about me and what I do.</h6>
+            <h6 className="mini-header-scroll">Scroll down to read more about me and what I do.</h6>
         </div>
     )
 }

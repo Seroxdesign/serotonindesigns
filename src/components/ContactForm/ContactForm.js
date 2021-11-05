@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Header from 'components/Headers/Header'
 import { useForm } from 'react-hook-form';
 
 import './ContactForm.css'
@@ -36,9 +35,19 @@ export default function ContactForm(props) {
             </div>
 
             <div className="contact-form">
+
                 <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
 
                     <input type='hidden' name='contact_number' value={contactNumber} />
+
+
+
+                    <select id="cars">
+                        <option value="volvo"></option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
 
                     <input type='text' name='user_name' {...register('user_name')} placeholder='Name'  />
                 

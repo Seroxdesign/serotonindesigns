@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1023px){
     .footer-wrapper{
-        height: 92vh;
+        height: 94vh;
         width: 100%;
         display: grid;
         grid-template-rows: 60% 40%;

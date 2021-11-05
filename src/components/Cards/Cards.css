@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1023px){
     .card-wrapper{
-        height: 92vh;
+        height: 94vh;
         width: 100%;
         background-color: #292828;
         
@@ -16,27 +16,28 @@
  
 
     .intro-para{
-        width: 90%;
-        margin-left:5%;
-        margin-top: 1.5em;
+        width: 60%;
+        margin-left:20%;
+        margin-top: 1.4em;
         text-align: center;
         font-weight: 300;
-        line-height: 1.4em;
+        line-height: 1.2em;
         color: rgba(238, 238, 238, 0.603);
-        font-size: medium;
+        font-size: smaller;
     }
 
     .btn-container{
-        height: 25%;
+        height: 30%;
         margin-top: 1em;
         width: 70%;
         margin-left: 15%;
     }
 
     .intro-cta-btn{
-        margin-top: 1.5em;
-        height: 30%;
-        width: 100%;
+        margin-top: 1em;
+        height:22%;
+        width: 80%;
+        margin-left: 10%;
         border-radius: 50px;
         background-color: #292828;
         border: 3px solid #eb3340 ;
@@ -159,6 +160,15 @@
    #desktop-only{
        display: none;
    }
+
+   .mini-header-scroll{
+       width: 60%;
+        color: rgba(255, 255, 255, 0.144);
+        font-size: xx-small;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
 }
 
 @media only screen and (min-width: 1024px){

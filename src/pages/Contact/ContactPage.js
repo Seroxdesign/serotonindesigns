@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Navbar from 'components/Navbar/Navbar'
 import ContactForm from 'components/ContactForm/ContactForm'
 import DropDown from 'components/DropDownMenu/DropDown'
-import ContactInto from 'components/Sections/ContactInto'
+import ContactFormS from 'components/ContactForm/ContactFormS'
 import Footer from 'components/Footer/Footer'
 
 
@@ -60,8 +60,8 @@ export default class ContactPage extends Component {
                 <div className="content-wrapper" >
                   
 
-                    <div className="section-2" style={{marginTop: '-0.5em'}}>
-                        <a id="consultation"><ContactForm sent={this.message_sent} /></a>
+                    <div className="section-3" style={{marginTop: '-0.5em'}}>
+                        <ContactFormS />
                     </div>
 
 
