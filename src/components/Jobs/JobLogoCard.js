@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Jobs.css'
 
 export default function JobLogoCard(props) {

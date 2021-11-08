@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Navbar from 'components/Navbar/Navbar'
-import ContactForm from 'components/ContactForm/ContactForm'
+
 import DropDown from 'components/DropDownMenu/DropDown'
 import ContactFormS from 'components/ContactForm/ContactFormS'
 import Footer from 'components/Footer/Footer'
-
+import Header from 'components/Headers/Header'
 
 export default class ContactPage extends Component {
 
@@ -29,7 +29,7 @@ export default class ContactPage extends Component {
             dropDown.style.height = '0'
         }
         else{
-            dropDown.style.height = '92vh'
+            dropDown.style.height = '94vh'
             dropDown.style.backgroundColor = 'white'
         }
 
@@ -58,9 +58,10 @@ export default class ContactPage extends Component {
 
 
                 <div className="content-wrapper" >
-                  
+                   
 
                     <div className="section-3" style={{marginTop: '-0.5em'}}>
+                        
                         <ContactFormS />
                     </div>
 

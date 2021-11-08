@@ -24,7 +24,7 @@
 
     .job-card-wrapper{
         margin-top: 1em;
-        width: 75vw;
+        width: 70vw;
         margin-left: 1em;
         background-color: rgb(216, 214, 214);
         display: grid;
@@ -93,89 +93,22 @@
 }
 
 @media only screen and (min-width: 1024px){
-    .scroller{
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 2em;
-    }
+   .job-wrapper{
+       height: 100%;
+       width: 100%;
+       background-color: rgb(68, 68, 68);
+   }
 
-    .job-card-wrapper{
-        border: 2px solid #1efeff;
-        width: 30%;
-        height: 60vh;
-        margin-left: 2%;
-        background-color: #303030;
-        margin-top: 1em;
-        color: white;
-        box-sizing: border-box;
-        padding: 1em;
-    }
+   .scroller{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+   }
 
-    .skill-compilation{
-        margin-top: 1em;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2, 1fr);
-        height: 32vh;
-        grid-gap: 1em;
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .skill{
-        border: 2px solid white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .skill-img-work{
-        width: 3vw;
-        height: 3vw;
-        filter: brightness(0) invert(1);
-    }
-    .skill-t-t{
-        margin-top: 0.5em;
-        font-weight: 300;
-    }
-
-    .top-header-title{
-        text-align: center;
-        color: #1efeff;
-    }
-
-    .top-c-para{
-        width: 80%;
-        margin-left: 10%;
-        text-align: center;
-        margin-top: 1em;
-        font-weight: 200;
-    }
-
-    .btn-job{
-        width: 40%;
-        margin-left: 30%;
-        margin-top: 1.2em;
-        height: 5vh;
-        border-radius: 50px;
-        background-color: #303030;
-        color: #1efeff;
-        border: 3px solid #1efeff;
-    }
-
-    .top-card{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-content: center;
-    }
-
-    .circular-img{
-        height: 15vh;
-        width: 15vh;
-        margin-left: 37%;
-        margin-top: 2em;
-        border-radius: 50%;
-    }
+   .job-card-wrapper{
+       background-color: #202020;
+       height: 80%;
+       width: 80%;
+       margin-left: 10%;
+       margin-top: 10%; 
+   }
 }

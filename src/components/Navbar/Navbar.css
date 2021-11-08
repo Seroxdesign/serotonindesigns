@@ -38,27 +38,20 @@
 @media only screen and (min-width: 1024px){
     .navbar-wrapper{
         height: 6vh;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        background-color: #202020;
+
     }
 
     .navbar-img{
         height: 0em;
     }
 
-    .navbar-header{
-        margin-left: 1em;
-    }
 
     .desktop-nav-only{
-        width: 30%;
-        margin-right: 1em;
+        margin-left: 30%;
+        width: 40%;
         height: 6vh;
-      
-     
-        background-color: rgb(35, 35, 35);
+        
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -67,5 +60,10 @@
     .navbar-menu{
         display: none;
     }
+    
+    .navbar-link{
+        color: rgba(255, 255, 255, 0.409);
+    }
+
     
 }

@@ -2,50 +2,56 @@ import React from 'react'
 import MainHeader from 'components/Headers/MainHeader'
 import Zoom from 'react-reveal/Zoom'
 import { Link } from 'react-router-dom'
+import CTAButton from 'components/Buttons/CTAButton' 
+import Para from 'components/Paragraphs/Para'
 
 import './Cards.css'
 
 export default function IntroductionCard() {
     return (
         <div className="card-wrapper">
-            <div className="intro-img"></div>
 
-            <img src="https://i.imgur.com/s4vWOtX.jpg?1" className="intro-img-dt"></img>
+            <div className="pic">
 
-            <Zoom>
-                <MainHeader title={"Amy Sky"} />
-               
-            </Zoom>
-           
-
-            <p className="intro-para">
-                My name is Amy, I'm a 22 year gamer and content creator from the UK.
-            </p>
-
-           
-
-            <div className="btn-container">
-            <Link to={"/Links"}>
-            <Zoom >
-            <button className="intro-cta-btn" >View my Links</button>
-            </Zoom>
-            </Link>   
-
-            <Link to={"/contact"}>
-            <Zoom >
-            <button className="intro-cta-btn" >Contact me</button>
-            </Zoom>
-            </Link>   
-
-            <Link to={"/"}>
-            <Zoom>
-                <button className="intro-cta-btn inv" id={"mobile-only"}>18+</button>
-            </Zoom>
-            </Link>
-                
             </div>
 
-            <h6 className="mini-header-scroll">Scroll down to read more about me and what I do.</h6>
+            <div className="info">
+                <div className="intro-img"></div>
+
+                <img src="https://i.imgur.com/cvYJjKN.jpg?1" className="intro-img-dt" id={"mobile-only"}></img>
+
+                <Zoom>
+                    <MainHeader title={"Amy Sky"} />
+                </Zoom>
+
+
+
+                <Para text={"   My name is Amy, I'm a 22 year gamer and content creator from the UK."}/>           
+
+
+                <Link to={"/Links"}>
+                <Zoom >
+                    <CTAButton title={"View my links"} type={"cta-btn"}/>
+                </Zoom>
+                </Link>   
+
+                <Link to={"/contact"}>
+                <Zoom >
+                    <CTAButton title={"contact me"} type={"cta-btn"}/>
+                </Zoom>
+                </Link>   
+
+                <Link to={"/"}>
+                <Zoom>
+                    <CTAButton title={"18+"} type={"cta-btn-inv"}/>
+                </Zoom> 
+                </Link>
+                    
+
+
+                <h6 className="mini-header-scroll">Scroll down for more.</h6>
+            </div>
+            
         </div>
     )
 }

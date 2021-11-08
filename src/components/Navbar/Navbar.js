@@ -13,15 +13,15 @@ export default function Navbar(props) {
 
             <div className="desktop-nav-only">
                 <Link to={"/"}>
-                    Home
+                    <h3 className="navbar-link">Home</h3>
                 </Link>
 
                 <Link to={"/links"}>
-                    Links
+                    <h3 className="navbar-link">Links</h3>
                 </Link>
 
                 <Link to={"/contact"}>
-                    Contact
+                    <h3 className="navbar-link">Contact me</h3>
                 </Link>
             </div>
         </div>

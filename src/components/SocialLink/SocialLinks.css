@@ -18,7 +18,7 @@
         align-items: center;
         justify-content: space-between;
         margin-right: 2em;
-        width: 55vw;
+        width: 60vw;
     }
 
     .link-link{
@@ -39,7 +39,7 @@
 
     .head-s-1{
         color: rgba(255, 255, 255, 0.837);
-        font-size: large;
+        font-size: medium;
         text-align: left;
     }
 

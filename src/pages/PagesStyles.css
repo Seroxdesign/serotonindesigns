@@ -15,8 +15,8 @@
     .dropdown-menu{
         width: 100vw;
         height: 0%;
-        position: absolute;
-        top: 8vh;
+        position: fixed;
+        top: 6vh;
         left: 0;
         z-index: 2;
         transition: 1s;
@@ -142,69 +142,22 @@
         width: 100vw;
         box-sizing: border-box;
         overflow-x: hidden;
-        background-color: #F3EEED;
-        
-        background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-    
     }
 
-    .content-wrapper{
-     
-    }
+   .section-1{
+       height: 94vh;
+       background-color: #303030;
+   }
 
+   .section-2{
+       background-color: #c2c2c2;
+   }
 
-    .section-1{
-        height: 60vh;
-        width: 100%;
-        
+   #mobile-only{
+       display: none;
+   }
 
-        border-bottom: 2px solid black;
-    }
-
-    .dropdown-menu{
-        display: none;
-    }
-
-    #invisible{
-        display: none;
-    }
-
-    #message-sent{
-        height: 100vh;
-        width: 100vw;
-        background-color: #303030;
-        border: 2px solid #1efeff;
-        position: absolute;
-        top: 0;
-        z-index: 5;
-        padding: 2em;
-     
-    }
-
-    .contact-status-img{
-        margin-left: 22%;
-        margin-top: 2em;
-        height: 8em;
-        padding-left: 1.5em;
-        filter: brightness(0) invert(1);
-    }
-
-    .close-contact-btn{
-        height: 8vh;
-        width: 8vh;
-        margin-left: 70vw;
-
-        border: none;
-        background-color: #303030;
-        color: #ff69b4;
-        font-size: xx-large;
-        font-weight: 700;
-    }
-
-    .contact-header-announcement{
-        margin-top: 1em;
-        color: aliceblue;
-        text-align: center;
-        font-size: large;
-    }
+   .section-2{
+       height: 50vh;
+   }
 }

@@ -15,14 +15,13 @@
         flex-direction: column;
         align-items: left;
         justify-content: left;
-        
-        min-height: 94vh;
+
     }
     
     input{
         margin-left: 10%;
         width: 80%;
-        height: 5vh;
+        height: 4vh;
         margin-top: 0.5em;
         border-radius: 10px;
         color: rgba(255, 255, 255, 0.837);
@@ -47,7 +46,7 @@
     textarea{
         margin-left: 10%;
         margin-top: 1em;
-        height: 40vh;
+        height: 30vh;
         box-sizing: border-box;
         padding: 1em;
         width: 80%;
@@ -61,14 +60,23 @@
         margin-left: 10%;
         margin-top: 0.5em;
         width: 80%;
-        height: 5vh;
+        height: 4vh;
         background-color: #3c3c3cdb;
         color: rgba(255, 255, 255, 0.837);
         border: 1px solid #eb3340;
         text-align: left;
         border-radius: 10px;
+        padding-left: 0.5em;
     }
-
+    
+    #submit-btn{
+        color: #eb3340;
+        margin-top: 1.5em;
+        height: 7vh;
+        background-color: #303030;
+        box-sizing: border-box;
+        padding: 0em;
+    }
 }
 
 @media only screen and (min-width: 1024px){

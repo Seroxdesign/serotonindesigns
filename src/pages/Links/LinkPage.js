@@ -30,7 +30,7 @@ export default class Homepage extends Component {
             dropDown.style.height = '0'
         }
         else{
-            dropDown.style.height = '92vh'
+            dropDown.style.height = '94vh'
             dropDown.style.backgroundColor = 'white'
         }
 

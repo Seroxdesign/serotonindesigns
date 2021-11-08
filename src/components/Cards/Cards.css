@@ -9,50 +9,22 @@
     .intro-img{
         width: 100vw;
         height: 30%;
-        background-image: url("https://i.imgur.com/PGwLKVS.png?1");
+        background-image: url("https://i.imgur.com/h4lpAlj.jpg?1");
         background-size: cover;
         
     }
  
 
-    .intro-para{
-        width: 60%;
-        margin-left:20%;
-        margin-top: 1.4em;
-        text-align: center;
-        font-weight: 300;
-        line-height: 1.2em;
-        color: rgba(238, 238, 238, 0.603);
-        font-size: smaller;
-    }
+ 
 
     .btn-container{
-        height: 30%;
+        height: 40%;
         margin-top: 1em;
         width: 70%;
         margin-left: 15%;
     }
 
-    .intro-cta-btn{
-        margin-top: 1em;
-        height:22%;
-        width: 80%;
-        margin-left: 10%;
-        border-radius: 50px;
-        background-color: #292828;
-        border: 3px solid #eb3340 ;
-        color:  #eb3340;
-        box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.088);
-        font-weight: 800;
-        font-size: medium;
-    }
-
-    .inv{
-        background-color: #eb3340;
-        
-        color:  #292828;
-    }
-
+  
     .skill-wrapper{
         height: 100%;
         width: 100%;
@@ -167,163 +139,42 @@
         font-size: xx-small;
         margin-left: 20%;
         margin-top: 10%;
+        text-align: center;
     }
 
 }
 
 @media only screen and (min-width: 1024px){
-    .skill-wrapper{
-        width: 100vw;
-        height: 40vh;
-       
-    }
-
-    .skill-grid{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .card-wrapper-triple{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        background-color: #303030;
-        height: 40vh;
-       
-    }
-
    .card-wrapper{
-       height: 100%;
-       background-color: #303030;
-   }
-
-   .intro-para{
        width: 50%;
        margin-left: 25%;
-       color: white;
-       margin-top: 1em;
-       text-align: center;
-       font-size: small;
-   }
-   
-   .intro-img{
-       display: none;
-   }
-
-   .intro-img-dt{
-       margin-left: 45vw;
-       height: 10vw;
-       width: 10vw;
-       border-radius: 50%;
-       border: 3px solid #1efeff;
-       margin-top: 1em;
-   }
-
-   .intro-cta-btn{
-       width: 16vw;
-       height: 7vh;
-        margin-left: 42vw;
-        margin-top: 2em;
-        border-radius: 50px;
-        background-color: #303030;
-        color: #1efeff;
-        border: 3px solid #1efeff;
-   }
-
-   .mini-c{
-       height: 20vh;
-       width: 10vw;
-       margin-top: 1em;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-       border: 2px solid #1efeff;
-   }
-
-   .mini-img{
-       width: 5vw;
-       height: 5vw;
-       filter: brightness(0) invert(1);
-   }
-
-   .passion-section{
-    border: 3px solid white;
-    padding: 1.5em;
-    margin-top: 2em;
-    border-radius: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
-   }
-
-   .passion-img{
-    width: 5vw;
-    height: 5vw;
-    filter: brightness(0) invert(1);
-   }
-
-   .passion-collection{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-   }
-
-   .passion-header{
-       margin-top: 0.7em;
-       color: #1efeff;
-
-   }
-
-   .passion-para{
-    margin-top: 0.5em;
-    color: white;
-    font-weight: 300;
-   }
-
-   .passion-cta{
-       width: 12vw;
-       height: 4vh;
-       margin-top: 1em;
+       height: 95%;
+       margin-top: 1%;
        background-color: #303030;
-       color: #bc1823;
-       border: 2px solid #bc1823;
-       border-radius: 50px;
-   }
-
-   a{
-    color: #1efeff;
-   }
-
-   #mobile-only{
-       display: none;
-   }
-
-   .job-card-intro-wrapper{
-       background-color: #303030;
-       height: 100%;
-
-   }
-
-   .work-para{
-       width: 50%;
-       margin-left: 25%;
-       text-align: center;
-       color: white;
-       margin-top: 1em;
-   }
-
-   .job-intro-im{
-        margin-top: 1em;
-       width: 15vw;
-       margin-left: 42.5vw;
-        height: 28vh;
+       border-radius: 5%;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr); 
     }
+
+    .pic{
+        background-image: url("https://i.imgur.com/35qA3Eq.jpg?1");
+        background-size: cover;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(36, 26, 26);
+    }
+
+    .mini-header-scroll{
+        color: rgb(139, 139, 139);
+        margin-top: 2em;
+    }
+
+    
 }

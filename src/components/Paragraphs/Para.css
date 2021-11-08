@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1023px){
+    .para-text{
+        width: 60%;
+        margin-left:20%;
+        margin-top: 1.4em;
+        text-align: center;
+        font-weight: 300;
+        line-height: 1.2em;
+        color: rgba(238, 238, 238, 0.603);
+        font-size: smaller;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .para-text{
+        width: 60%;
+
+        margin-top: 1.4em;
+        text-align: center;
+        font-weight: 300;
+        line-height: 1.2em;
+        color: rgba(238, 238, 238, 0.603);
+        font-size: smaller;
+    }
+}

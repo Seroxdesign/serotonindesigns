@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-
+import './ContactForm.css'
 
 export default class ContactFormS extends Component {
   
@@ -34,6 +34,8 @@ export default class ContactFormS extends Component {
                 <textarea>
                     
                 </textarea>
+
+                <input type='submit' id="submit-btn" value='Send'/>
             </form>
         )
     }
