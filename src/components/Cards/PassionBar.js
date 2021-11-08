@@ -5,7 +5,7 @@ import './Cards.css'
 
 export default function PassionBar(props) {
     return (
-   
+            <a>
             <div className="passion-section">
                 <img src={props.img} className="passion-img" alt="" ></img>
 
@@ -17,6 +17,8 @@ export default function PassionBar(props) {
                     </a>
                 </div>
             </div>
+            </a>
+            
   
     )
 }

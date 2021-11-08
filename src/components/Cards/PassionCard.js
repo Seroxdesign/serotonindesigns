@@ -9,19 +9,19 @@ export default function PassionCard(props) {
 
 
             <Fade left="true">
-            <PassionBar />
+            <PassionBar img={""} title={"Name of person"} statement={"22 year old x from x exmaple"} cta={"View"}/>
             </Fade>
            
 
 
             <Fade left="true">
-                <PassionBar />
+                <PassionBar img={""} title={"Name of person"} statement={"22 year old x from x exmaple"} cta={"View"}/>
             </Fade>
            
 
 
             <Fade left="true">
-                <PassionBar />
+                <PassionBar img={""} title={"Name of person"} statement={"22 year old x from x exmaple"} cta={"View"}/>
             </Fade>
             
 

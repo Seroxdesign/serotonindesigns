@@ -96,17 +96,19 @@
    .job-wrapper{
        height: 100%;
        width: 100%;
-       background-color: rgb(68, 68, 68);
+       background-color: #202020;
    }
 
    .scroller{
+       width: 80%;
+       margin-left: 10%;
        display: grid;
        grid-template-columns: repeat(3, 1fr);
    }
 
    .job-card-wrapper{
-       background-color: #202020;
-       height: 80%;
+       background-color: #303030;
+       height: 40vh;
        width: 80%;
        margin-left: 10%;
        margin-top: 10%; 

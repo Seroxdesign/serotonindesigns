@@ -98,9 +98,7 @@
         background-color: #292828;
     }
 
-    .intro-img-dt{
-        display: none;
-    }
+   
 
     .job-card-intro-wrapper{
         height: 100%;
@@ -176,5 +174,18 @@
         margin-top: 2em;
     }
 
-    
+    .card-wrapper-triple{
+        height: 100vh;
+        width: 80%;
+        margin-left: 10%;
+        box-sizing: border-box;
+        padding: 1em;
+    }
+
+    .passion-section{
+        height: 27vh;
+        margin-top: 1.5em;
+        width: 100%;
+        background-color: white;
+    }
 }
