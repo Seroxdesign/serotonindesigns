@@ -18,7 +18,7 @@ export default function IntroductionCard() {
             <div className="info">
                 <div className="intro-img"></div>
 
-                <img src="https://i.imgur.com/cvYJjKN.jpg?1" className="intro-img"></img>
+                <img src="https://i.imgur.com/QsdJMKP.jpg?2" id={"mobile-only"} className="intro-img"></img>
 
                 <Zoom>
                     <MainHeader title={"Amy Sky"} />

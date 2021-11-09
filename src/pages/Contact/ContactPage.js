@@ -52,7 +52,7 @@ export default class ContactPage extends Component {
             <div className="page-wrapper">
                 <Navbar dropdown={this.pull_out_dropdown}/>
 
-                <div className="dropdown-menu" ref={this.dropDown}>
+                <div className="dropdown-menu" id={"mobile-only"} ref={this.dropDown}>
                     <DropDown />
                 </div>
 
