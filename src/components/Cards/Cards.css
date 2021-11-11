@@ -77,7 +77,7 @@
     }
 
     .passion-img{
-        width: 25vw;
+        width: 28vw;
         height: 15vh;
         margin-left: 5%;
         filter: brightness(0) invert(1);
@@ -183,10 +183,12 @@
     }
 
     .passion-section{
-        height: 27vh;
+        height: 28vh;
         margin-top: 1.5em;
-        width: 100%;
+        width: 96%;
+        margin-left: 2%;
         background-color: white;
+        box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.1);
     }
 
 

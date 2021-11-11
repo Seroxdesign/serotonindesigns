@@ -151,10 +151,12 @@
    }
 
    .section-2{
-       background-color: #303030;
+    background-color: rgb(240, 240, 240);
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
    }
 
-   .section-3{ background-color: rgb(240, 240, 240);
+   .section-3{
+    background-color: rgb(240, 240, 240);
     background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
     }
 

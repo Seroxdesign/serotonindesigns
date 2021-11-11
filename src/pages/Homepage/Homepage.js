@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Navbar from 'components/Navbar/Navbar'
+import NavbarS from 'components/Navbar/NavbarS'
 import IntroductionCard from 'components/Cards/IntroductionCard'
 
 import PassionCard from 'components/Cards/PassionCard'
@@ -41,7 +41,7 @@ export default class Homepage extends Component {
     render() {
         return (
             <div className="page-wrapper">
-                <Navbar dropdown={this.pull_out_dropdown}/>
+                <NavbarS initial_tab={"home"} dropdown={this.pull_out_dropdown}/>
 
                 <div className="dropdown-menu" id={"mobile-only"} ref={this.dropDown}>
                     <DropDown />

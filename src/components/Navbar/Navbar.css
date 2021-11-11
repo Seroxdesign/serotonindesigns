@@ -62,8 +62,13 @@
     }
     
     .navbar-link{
-        color: rgba(255, 255, 255, 0.409);
+        color: rgba(255, 255, 255, 0.445);
+        font-size: smaller;
     }
 
-    
+    #highlight{
+        border-bottom: 3px solid rgb(75, 52, 52);
+        color: rgba(255, 255, 255, 0.845);
+        font-size: smaller;
+    }
 }

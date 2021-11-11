@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import Navbar from 'components/Navbar/Navbar'
+import NavbarS from 'components/Navbar/NavbarS'
 
 import DropDown from 'components/DropDownMenu/DropDown'
 import ContactFormS from 'components/ContactForm/ContactFormS'
 import Footer from 'components/Footer/Footer'
-import Header from 'components/Headers/Header'
 
 export default class ContactPage extends Component {
 
@@ -50,7 +49,7 @@ export default class ContactPage extends Component {
     render() {
         return (
             <div className="page-wrapper">
-                <Navbar dropdown={this.pull_out_dropdown}/>
+                <NavbarS initial_tab={"contact"} dropdown={this.pull_out_dropdown}/>
 
                 <div className="dropdown-menu" id={"mobile-only"} ref={this.dropDown}>
                     <DropDown />

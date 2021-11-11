@@ -2,9 +2,14 @@
     .footer-wrapper{
         height: 94vh;
         width: 100%;
+        
+    }
+
+   .foot-wrap-new{
         display: grid;
         grid-template-rows: 60% 40%;
-    }
+        height: 100%;
+   }
 
     .footer-top{
         grid-row: 1;
@@ -48,40 +53,32 @@
     .footer-wrapper{
         height: 50vh;
         width: 100%;
-        background-color: #303030;
+        background-color: #202020;
         overflow-x: hidden;
     }
 
-    .footer-bottom{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+    .desktop-footer{
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 4px solid #941c1c;
     }
 
-    .btn-nav-foot{
-        width: 50%;
+    .footer-text-bottom{
+        font-size: small;
+        color: rgba(255, 255, 255, 0.463);
+        text-align: center;
+        margin-top: 1.5em;
+    }
+
+    .social-icons-foot{
+        height: 10vh;
+        width: 50vw;
+        margin-left: 25vw;
+        margin-top: 1em;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        margin-top: 2em;
-        border-bottom: 2px solid white;
-        height: 3.5em;
-        margin-left: 25%;
-    }
-
-    .footer-img{
-        width: 2vw;
-        height: 2vw;
-        filter: brightness(0) invert(1);
-    }
-
-    .site-foot-header{
-        text-align: center;
-        color: white;
-        margin-top: 3em;
-    }
-
-    .footer-top{
-        display: none;
+        justify-content: space-around;
     }
 }

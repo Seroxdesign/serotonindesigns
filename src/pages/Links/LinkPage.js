@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Navbar from 'components/Navbar/Navbar'
+import NavbarS from 'components/Navbar/NavbarS'
 import Linksec from 'components/Sections/Linksec'
 import LinkCont from 'components/Sections/LinkCont'
 import Footer from 'components/Footer/Footer'
@@ -39,7 +39,7 @@ export default class Homepage extends Component {
     render() {
         return (
             <div className="page-wrapper">
-                <Navbar dropdown={this.pull_out_dropdown}/>
+                <NavbarS initial_tab={"links"} dropdown={this.pull_out_dropdown}/>
 
                 <div className="dropdown-menu" id={"mobile-only"} ref={this.dropDown}>
                     <DropDown />

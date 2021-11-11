@@ -70,9 +70,10 @@
     }
 
     .link-im{
-        filter: brightness(0) invert(1);
+        filter: brightness(0) invert(0.8);
         height: 3vw;
         width: 3vw;
+        transition: 0.3s;
     }
 
     .link-link{
@@ -83,6 +84,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 50px;
+        transition: 0.3s;
     }
 
     .link-link:hover{
@@ -95,6 +97,14 @@
         border-radius: 50px;
     }
 
+    .link-im:hover{
+        filter: brightness(0) invert(1);
+        height: 2.5vw;
+        width: 2.5vw;
+        
+    }
+
+
     .social-titles{
         display: flex;
         flex-wrap: nowrap;
@@ -103,4 +113,5 @@
         justify-content: space-between;
         color: rgba(255, 255, 255, 0.544);
     }
+
 }
