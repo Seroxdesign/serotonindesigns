@@ -7,7 +7,7 @@ export default function Linksec() {
         <div className="link-sec">
             <div className="circular-img-link" id={"mobile-only"}  ></div>
             <div className="circular-img-link" id={"desktop-only"} ></div>
-            <h2 className="link-header2">AMYSKY</h2>
+            <h2 className="link-header2">Amy Sky</h2>
             <h2 className="link-header">Find me on:</h2>
 
             <div className="links-scroller">

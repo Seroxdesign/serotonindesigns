@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NavbarS from 'components/Navbar/NavbarS'
-
+import TalentBadgeWrap from 'components/Sections/Talentbadges/TalentBadgeWrap'
 import DropDown from 'components/DropDownMenu/DropDown'
 import ContactFormS from 'components/ContactForm/ContactFormS'
 import Footer from 'components/Footer/Footer'
@@ -59,9 +59,21 @@ export default class ContactPage extends Component {
                 <div className="content-wrapper" >
                    
 
-                    <div className="section-3" style={{marginTop: '-0.5em'}}>
-                        
-                        <ContactFormS />
+                    <div className="section-3" style={{marginTop: '-2em'}}>
+                       
+                        <div className="desktop-about-contact">
+                            <div className="about-contact" id={"desktop-only"}>
+                                <div className="about-img"></div>
+                                <div className="intro-about-section">
+                                    <h2 className="intro-about-title">About me</h2>
+                                </div>
+                                <div className="talents-row">
+                                    <TalentBadgeWrap />
+                                </div>
+                            </div>
+                            <ContactFormS />
+                        </div>
+
                     </div>
 
 

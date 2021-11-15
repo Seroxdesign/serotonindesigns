@@ -15,12 +15,12 @@ export default class ContactFormS extends Component {
         return (
             <form id="contact-form">
 
-                <label style={{borderTop: 'none'}}>Your Name:</label>
-                <input type="name"></input>
+                <label style={{borderTop: 'none'}} >Your Name:</label>
+                <input placeholder={"Enter your Name here"} type="name"></input>
+            
 
                 <label >Your Email:</label>
-                <input  type="email"></input>
-                
+                <input placeholder={"Enter your Email here"} type="email"></input>
                 
                 <label>You are contacting me as a:</label>
                 <select>
@@ -35,7 +35,11 @@ export default class ContactFormS extends Component {
                     
                 </textarea>
 
-                <input type='submit' id="submit-btn" value='Send'/>
+                <div className="newsletter-sign-up">
+                    <p className="newsletter-para">Sign up to my newsletter for offers, rewards, and <strong>faster responses</strong> </p>
+                    <input type="checkbox" className="check"/>
+                    <input type='submit' id="submit-btn" value='Send'/>
+                </div>
             </form>
         )
     }

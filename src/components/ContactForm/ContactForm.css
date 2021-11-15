@@ -5,7 +5,7 @@
         padding: 1em;
         padding-left: 10%;
         padding-right: 10%;
-        padding-top: 3em;
+        padding-top: 4em;
         border-bottom: 2px solid white;
     }
 
@@ -15,8 +15,10 @@
         flex-direction: column;
         align-items: left;
         justify-content: left;
-
-    }
+        padding-top: 2em;
+        border-bottom: 2px solid rgba(160, 154, 154, 0.191);
+        padding-bottom: 2em;
+    }   
     
     input{
         margin-left: 10%;
@@ -41,6 +43,7 @@
         width: 80%;
         padding-top: 1em;
         text-align: left;
+        font-size:small;
     }
 
     textarea{
@@ -70,47 +73,74 @@
     }
     
     #submit-btn{
-        color: #eb3340;
-        margin-top: 1.5em;
-        height: 7vh;
+        color: #eb333fb3;
+       
+        height: 8vh;
         background-color: #303030;
         box-sizing: border-box;
         padding: 0em;
     }
-}
 
-@media only screen and (min-width: 1024px){
-    .contact-form-wrapper{
-        height: 100vh;
-        width: 100%;
-        background-color: #303030;
-       
+    .newsletter-sign-up{
+        margin-top: 0.5em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
     }
 
-    .contact-form{
-        height: 60vh;
-        width: 40vw;
+    .newsletter-para{
+        font-size: xx-small;
+        text-align: left;
+        width: 200%;
+        color: rgba(255, 255, 255, 0.442);
+    }
+}
+
+
+/* */
+
+@media only screen and (min-width: 1024px){
     
-        margin-left: 30vw;
+
+    .contact-form{
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2em;
+        border: 5px solid red;
     }
 
     #contact-form{
-        width: 100%;
         height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2em;
+        padding-top: 4em;
         display: flex;
         flex-direction: column;
+        background-color: rgb(36, 26, 26);
     }
+
+    .about-contact{
+        height: 100%;
+        width: 100%;
+        background-color: #303030;
+    }
+    
 
     input{
         width: 80%;
         margin-top: 1em;
         margin-left: 10%;
-        height: 4vh;
+        height: 5vh;
         background-color: #303030;
-        border: 2px solid white;
+        color: rgba(255, 255, 255, 0.497);
+        border: 2px solid rgba(255, 255, 255, 0.497);
         box-sizing: border-box;
         padding: 0.5em;
-        color: #1efeff;
       
     }
 
@@ -118,26 +148,50 @@
         width: 80%;
         margin-top: 1em;
         margin-left: 10%;
-        height: 60%;
+        height: 50%;
         background-color: #303030;
-        border: 2px solid white;
+        color: rgba(255, 255, 255, 0.497);
+        border: 2px solid rgba(255, 255, 255, 0.497);
         box-sizing: border-box;
         padding: 0.5em;
-        color: white;
+       
        
     }
 
+    .newsletter-sign-up{
+        display: flex;
+        flex-direction: row;
+        height: 8vh;
+        width: 80%;
+        margin-left: 10%;
+    }
+
     #submit-btn{
-        height: 7vh;
+        height: 5vh;
         border-radius: 50px;
-        color: #1efeff;
-        border: 2px solid #1efeff;
+        color: rgba(255, 255, 255, 0.497);
+        border: 2px solid rgba(255, 255, 255, 0.497);
     }
     
+
+    .check{
+        height: 3vh;
+        margin-top: 1.5em;
+    }
+
+    .newsletter-para{
+        width: 40vw;
+        color: rgb(213, 213, 213);
+        font-size: smaller;
+        margin-top: 2em;
+        font-size: x-small;
+    }
+
+
     .contact-options{
         margin-left: 33%;
   
-        width: 30%;
+        width: 30vw;
         box-sizing: border-box;
         padding: 1em;
     }
@@ -161,5 +215,19 @@
         width: 3vw;
         height: 3vw;
         filter: brightness(0) invert(1);
+    }
+
+    label{
+        display: none;
+    }
+
+    select{
+        height: 5vh;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1em;
+        background-color: #303030;
+        color: rgba(255, 255, 255, 0.497);
+        border: 2px solid rgba(255, 255, 255, 0.497);
     }
 }

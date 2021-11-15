@@ -31,6 +31,6 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(36, 26, 26);
-  outline: 1px solid #941c1c;
+  background-color: rgb(39, 31, 31);
+  outline: 1px solid #501212;
 }
