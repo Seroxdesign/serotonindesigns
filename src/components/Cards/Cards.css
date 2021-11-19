@@ -144,8 +144,9 @@
 
 @media only screen and (min-width: 1024px){
    .card-wrapper{
-       width: 50%;
-       margin-left: 25%;
+    box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
+       width: 75%;
+       margin-left: 12.5%;
        height: 95%;
        margin-top: 1%;
        background-color: #303030;

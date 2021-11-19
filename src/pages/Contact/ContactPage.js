@@ -61,18 +61,9 @@ export default class ContactPage extends Component {
 
                     <div className="section-3" style={{marginTop: '-2em'}}>
                        
-                        <div className="desktop-about-contact">
-                            <div className="about-contact" id={"desktop-only"}>
-                                <div className="about-img"></div>
-                                <div className="intro-about-section">
-                                    <h2 className="intro-about-title">About me</h2>
-                                </div>
-                                <div className="talents-row">
-                                    <TalentBadgeWrap />
-                                </div>
-                            </div>
+                   
                             <ContactFormS />
-                        </div>
+                     
 
                     </div>
 

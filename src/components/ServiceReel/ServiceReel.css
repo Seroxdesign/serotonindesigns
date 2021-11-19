@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    .service-wrapper{
+        background-color: rgb(43, 43, 43);
+        width: 100%;
+        margin-left: 0%;
+        height: 97%;
+        display: grid;
+        grid-template-rows: 7.5% 85% 7.5%;
+        box-sizing: border-box;
+        padding: 1em;
+        margin-top: 1em;
+    }
+
+    .service-choice{
+        grid-template-rows: 1;
+        width: 80%;
+        margin-left: 10%;
+   
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+    .service-index{
+        grid-template-rows: 1;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+
+    .service-choice-title{
+        color: rgb(187, 187, 187);
+        cursor: pointer;
+        font-size: medium;
+   
+        padding-bottom: 0.5em;
+        
+    }
+
+    .service-choice-title:hover{
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: large;
+        border-bottom: 3px solid #d58e8e30;
+    }
+
+    .service-index-list{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service-item{
+        border-top: 3px solid #b8b6b630;
+        height: 100%;
+        width: 100%;
+        color: rgb(187, 187, 187);
+        text-align: center;
+        padding-top: 1em;
+        font-size: small;
+        cursor: pointer;
+    }
+
+    .service-item:hover{
+        border-top: 3px solid rgb(114, 48, 48);
+        height: 100%;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding-top: 1em;
+        font-size: small;
+        cursor: pointer;
+    }
+
+    .service-body{
+        background-color: azure;
+        width: 75%;
+        margin-left: 12.5%;
+        height: 95%;
+        margin-top:1%;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 1;
+    }
+
+    .service-img{
+        grid-column: 1;
+    }
+
+    .service-cta{
+        height: 100%;
+        width: 100%;
+        grid-column: 2;
+        background-color: #c7121230;
+    }
+
+    #highlight{
+        color: white;
+        font-size: large;
+        transition: 0.8;
+        border-bottom: 3px solid #f1b4b430;
+    }
+
+    #highlight-service{
+        
+        border-top: 3px solid rgb(129, 58, 58);
+        color: white;
+        font-size: large;
+        transition: 0.8;
+    }
+}

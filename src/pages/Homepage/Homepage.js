@@ -7,6 +7,7 @@ import Job from 'components/Jobs/Job'
 import Footer from 'components/Footer/Footer'
 import DropDown from 'components/DropDownMenu/DropDown'
 import Header from 'components/Headers/Header'
+import ServiceReel from 'components/ServiceReel/ServiceReel'
 
 import('pages/PagesStyles.css')
 
@@ -52,16 +53,20 @@ export default class Homepage extends Component {
                         <IntroductionCard />
                     </div>
 
-                    <div className="section-2">
+                    <div className="section-2" id={"mobile-only"}>
                         <Header  title={"Connect with me"} color={"rgba(255,255,255,0.7)"}/>
                         <Job></Job>
                         
                     </div>
 
-                    <div className="section-2">
+                    <div className="section-2" id={"mobile-only"}>
                         <Header  title={"For creators"} color={"rgba(255,255,255,0.7)"}/>
                         <Job></Job>
                         
+                    </div>
+
+                    <div className="section-2" id={"desktop-only"}>
+                        <ServiceReel />
                     </div>
                   
                     <div className="section-3" >
@@ -69,7 +74,7 @@ export default class Homepage extends Component {
                         <PassionCard />
                     </div>
 
-                    <div className="section-2">
+                    <div className="section-3">
                         <Footer />
                     </div>
                 </div>

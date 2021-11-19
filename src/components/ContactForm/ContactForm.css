@@ -106,29 +106,25 @@
     
 
     .contact-form{
-        height: 100%;
-        width: 100%;
+       
         box-sizing: border-box;
         padding: 2em;
         border: 5px solid red;
     }
 
     #contact-form{
-        height: 100%;
-        width: 100%;
-        box-sizing: border-box;
+        height: 90vh;
+        width: 70%;
+        margin-left: 15%;
         padding: 2em;
         padding-top: 4em;
+        margin-top:4em;
+        margin-bottom: 4em;
         display: flex;
         flex-direction: column;
         background-color: rgb(36, 26, 26);
     }
 
-    .about-contact{
-        height: 100%;
-        width: 100%;
-        background-color: #303030;
-    }
     
 
     input{
@@ -137,7 +133,7 @@
         margin-left: 10%;
         height: 5vh;
         background-color: #303030;
-        color: rgba(255, 255, 255, 0.497);
+        color: rgba(255, 255, 255, 0.783);
         border: 2px solid rgba(255, 255, 255, 0.497);
         box-sizing: border-box;
         padding: 0.5em;
@@ -148,9 +144,9 @@
         width: 80%;
         margin-top: 1em;
         margin-left: 10%;
-        height: 50%;
+        height: 70%;
         background-color: #303030;
-        color: rgba(255, 255, 255, 0.497);
+        color: rgba(255, 255, 255, 0.865);
         border: 2px solid rgba(255, 255, 255, 0.497);
         box-sizing: border-box;
         padding: 0.5em;
@@ -169,7 +165,7 @@
     #submit-btn{
         height: 5vh;
         border-radius: 50px;
-        color: rgba(255, 255, 255, 0.497);
+        color: rgba(255, 255, 255, 0.858);
         border: 2px solid rgba(255, 255, 255, 0.497);
     }
     
