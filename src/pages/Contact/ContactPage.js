@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import NavbarS from 'components/Navbar/NavbarS'
-import TalentBadgeWrap from 'components/Sections/Talentbadges/TalentBadgeWrap'
 import DropDown from 'components/DropDownMenu/DropDown'
 import ContactFormS from 'components/ContactForm/ContactFormS'
 import Footer from 'components/Footer/Footer'
+import FaqContainer from 'components/faq/FaqContainer'
 
 export default class ContactPage extends Component {
 
@@ -58,13 +58,13 @@ export default class ContactPage extends Component {
 
                 <div className="content-wrapper" >
                    
+                    <div className="section-3">
+                        <FaqContainer />
+                    </div>
 
-                    <div className="section-3" style={{marginTop: '-2em'}}>
-                       
-                   
-                            <ContactFormS />
-                     
 
+                    <div className="section-3" id={"mobile-only"} style={{marginTop: '-2em'}}>
+                        <ContactFormS />
                     </div>
 
 

@@ -56,7 +56,7 @@
         height: 100%;
         width: 100%;
         box-sizing: border-box;
-        padding: 1em;
+        background-size: contain;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -85,10 +85,7 @@
     }
 
     .circular-img{
-        border-radius: 50%;
-        height: 20vh;
-        width: 20vh;
-        margin-top: 1em;
+        height: 100%;
     }
 }
 

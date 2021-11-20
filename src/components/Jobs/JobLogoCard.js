@@ -5,15 +5,7 @@ export default function JobLogoCard(props) {
     return (
      
         <div className="job-card-wrapper" style={{border: props.bc}}>
-            <div className="top-card">
-                <h3 className="top-header-title" >{props.title}</h3>
-
-                <img className="circular-img" style={{display:'none'}} src={props.img} alt="logo"></img>
-
-                <p className="top-c-para"> 
-                    {props.para}
-                </p>
-
+            <div className="top-card" style={{backgroundImage: `url("${props.img}")`}}>
                
             </div>
 

@@ -1,26 +1,25 @@
 import React, { Component } from 'react'
 import JobLogoCard from './JobLogoCard'
-import Header from 'components/Headers/Header'
 import './Jobs.css'
 
 export default class Job extends Component {
 
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
 
         }
     }
 
-    render() {
+    render(props) {
         return (
             <div className="job-wrapper">
                 
 
                 <div className="scroller">
-                    <JobLogoCard />
-                    <JobLogoCard/>
-                    <JobLogoCard/>
+                    <JobLogoCard img={this.props.img1}/>
+                    <JobLogoCard img={this.props.img2}/>
+                    <JobLogoCard img={this.props.img3}/>
                 </div>
             </div>
         )
