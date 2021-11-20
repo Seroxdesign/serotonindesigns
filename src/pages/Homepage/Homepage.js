@@ -55,13 +55,13 @@ export default class Homepage extends Component {
 
                     <div className="section-2" id={"mobile-only"}>
                         <Header  title={"Connect with me"} color={"rgba(255,255,255,0.7)"}/>
-                        <Job></Job>
+                        <Job img1={"https://i.imgur.com/b9tMY4n.png"} img2={"https://i.imgur.com/rECPuqW.png"} img3={"https://i.imgur.com/CdTrAJ3.png"}></Job>
                         
                     </div>
 
                     <div className="section-2" id={"mobile-only"}>
                         <Header  title={"For creators"} color={"rgba(255,255,255,0.7)"}/>
-                        <Job></Job>
+                        <Job img1={"https://i.imgur.com/QFm22BX.png"} img2={"https://i.imgur.com/1Th6vhz.png"} img3={"https://i.imgur.com/jZUfwUf.png"}></Job>
                         
                     </div>
 
