@@ -200,6 +200,7 @@
         height: 80vh;
         margin-top: 10vh;
         width: 90%;
+        margin-left: 5%;
         padding: 2em;
         display: flex;
         flex-direction: column;

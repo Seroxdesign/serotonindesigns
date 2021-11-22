@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1023px){
-    .navbar-wrapper{
-        height: 6vh;
+     .navbar-wrapper{
+       height: 6vh;
         width: 100vw;
         position:fixed;
         top: 0;

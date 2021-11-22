@@ -13,6 +13,7 @@ export default class ContactPage extends Component {
         this.state={
             nav_status: false,
             message_bool: false,
+            open_contact_bool: false,
         }
     }
 
@@ -46,6 +47,19 @@ export default class ContactPage extends Component {
         })
     }
 
+    close_form = () => {
+        this.setState({
+            open_contact_bool: false,
+        })
+    }
+
+    open_form = () => {
+        this.setState({
+            open_contact_bool: true,
+        })
+    }
+
+
     render() {
         return (
             <div className="page-wrapper">
@@ -59,13 +73,12 @@ export default class ContactPage extends Component {
                 <div className="content-wrapper" >
                    
                     <div className="section-3">
-                        <FaqContainer />
+                        <FaqContainer openForm={this.open_form}/>
                     </div>
 
-
-                    <div className="section-3" id={"mobile-only"} style={{marginTop: '-2em'}}>
-                        <ContactFormS />
-                    </div>
+                        {this.state.open_contact_bool? <ContactFormS closeForm={this.close_form}/> : <div></div>}
+                        
+                
 
 
                     <div className="section-3">

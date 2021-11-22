@@ -7,12 +7,12 @@
         background-color: rgb(43, 43, 43);
         width: 100%;
         margin-left: 0%;
-        height: 97%;
+        height: 100%;
         display: grid;
         grid-template-rows: 7.5% 85% 7.5%;
         box-sizing: border-box;
         padding: 1em;
-        margin-top: 1em;
+       
     }
 
     .service-choice{

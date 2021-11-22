@@ -6,7 +6,7 @@
     .faq-wrapper{
         height: 100%;
         width: 100%;
-        background-image: linear-gradient(white, rgb(247, 239, 239));
+        background-image: linear-gradient(white, rgb(213, 213, 213));
         padding: 2em;
         display: flex;
         flex-direction: column;
@@ -29,6 +29,9 @@
         height: 100%;
         grid-row: 2;
         background-color: rgb(26,26,26);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .faqs{
@@ -98,5 +101,14 @@
     .faq-img-r{
         filter: brightness(0) invert(1);
         height: 7vh;
+    }
+
+    .contact-btn{
+        width: 15vw;
+
+        height: 7vh;
+        background-color:  #303030;
+        border: 3px solid white;
+        color: white;
     }
 }

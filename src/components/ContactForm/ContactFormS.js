@@ -1,46 +1,66 @@
-import React, { Component } from 'react'
+import React, {useState} from 'react'
+import { useForm } from 'react-hook-form';
 
 import './ContactForm.css'
+import { init, sendForm } from 'emailjs-com';
+init('user_f9ouNImbr2IkYirbDRSGo');
 
-export default class ContactFormS extends Component {
+
+export default function ContactForms(props) {
+
+    const [contactNumber, setContactNumber] = useState("000000");
   
-    constructor(){
-        super()
-        this.state={
-            
-        }
+    const generateContactNumber = () => {
+        const numStr = "000000" + (Math.random() * 1000000 | 0);
+        setContactNumber(numStr.substring(numStr.length - 6));
     }
 
-    render() {
-        return (
-            <form id="contact-form">
+    const { register, handleSubmit, watch, errors } = useForm();
+    const onSubmit = data => {
+        console.log(data);
+        generateContactNumber();
 
-                <label style={{borderTop: 'none'}} >Your Name:</label>
-                <input placeholder={"Enter your Name here"} type="name"></input>
-            
+        sendForm('service_9vr2ogp', 'template_cox0qiy','#contact-form').then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+          }, function(error) {
+            console.log('FAILED...', error);
+          });
+    }
 
-                <label >Your Email:</label>
-                <input placeholder={"Enter your Email here"} type="email"></input>
-                
-                <label>You are contacting me as a:</label>
-                <select>
-                    <option selected value="none">Please Select</option>
-                    <option value="fan">Fan</option>
-                    <option value="creator">Creator</option>
-                    <option value="brand">Brand</option>
-                </select>
-
-                <label >Your Message:</label>
-                <textarea>
-                    
-                </textarea>
-
-                <div className="newsletter-sign-up">
-                    <p className="newsletter-para">Sign up to my newsletter for offers, rewards, and <strong>faster responses</strong> </p>
-                    <input type="checkbox" className="check"/>
-                    <input type='submit' id="submit-btn" value='Send'/>
+    return (
+        <div className="contact-form-wrapper">
+          
+            <div className="contact-options">
+                <div className="contact-option">
+                    <img className="circle-option" src="https://i.imgur.com/vxNshty.png" alt=""></img>
+                    <a href="tel:8457180480"  className="phone-option">Call me at 845-718-0480</a>
                 </div>
-            </form>
-        )
-    }
+
+                <div className="contact-option">
+                    <img className="circle-option" src="https://i.imgur.com/tX6qjxI.png" alt=""></img>
+                    <h3 className="email-option">Sherifcherfa@gmail.com</h3>
+                </div>
+            </div>
+
+            <div className="contact-form">
+         
+
+                <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
+                <button className="close-contact-btn" onClick={props.closeForn} >X</button>
+
+                    <input type='hidden' name='contact_number' value={contactNumber} />
+
+                    <input type='text' name='user_name' {...register('user_name')} placeholder='Name'  />
+                
+                    <input type='email'  name='user_email' {...register('user_email')} placeholder='Email'  />
+               
+                    <textarea name='message' {...register('message')} placeholder='Message'/>
+                 
+                    <input type='submit' id="submit-btn" value='Send'  onClick={props.sent} />
+                </form>
+            </div>
+
+            
+        </div>
+    )
 }

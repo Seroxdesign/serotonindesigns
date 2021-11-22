@@ -3,14 +3,14 @@ import FaqCardS from './FaqCardS'
 import './FaqContainer.css'
 
 export default class FaqContainer extends Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
           
         }
     }
 
-    render() {
+    render(props) {
         return (
             <div className="faq-container">
                 
@@ -28,7 +28,7 @@ export default class FaqContainer extends Component {
                 </div>
 
                 <div className="contact-cta">
-                     
+                     <button className="contact-btn" onClick={this.props.openForm}>Let's talk</button>
                 </div>
             </div>
         )
