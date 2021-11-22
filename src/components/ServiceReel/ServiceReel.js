@@ -16,8 +16,7 @@ export default class ServiceReel extends Component {
         }
     }
 
-    service_img_fans = []
-    service_img_creators = []
+    service_img_fans = ['https://i.imgur.com/7O8Jqrw.png', 'https://i.imgur.com/i7jKjdU.png', 'https://i.imgur.com/zjGf534.png']
 
     switch_display = async (audience, img_set) => {
         let display_imgs = []
@@ -50,7 +49,9 @@ export default class ServiceReel extends Component {
                 </nav>
                 <Fade left="true">
                     <main className="service-body">
-                        <div className="service-img" ></div>
+                        <div className="service-img" >
+                            <h3 className="service-head">Web Developer for AMYSKY LTD</h3>
+                        </div>
 
                         <div className="service-cta" style={{backgroundImage: `url("${this.state.service_set[this.state.service]}")`}}>
 

@@ -40,12 +40,14 @@
         color: rgba(255, 255, 255, 0.724);
         text-align: center;
         margin-top: 0.5em;
+        font-size: x-small;
     }
     
     .link-header{
         color: rgba(255, 255, 255, 0.511);
         margin-top: 0.5em;
         text-align: center;
+        font-size: x-small;
     }
     
     #desktop-only{
@@ -103,11 +105,13 @@
     }
 
     .circular-img-link{
-        height: 50vh;
-        width: 100%;
-        background-image: url('https://i.imgur.com/dlk5YnU.jpg?2');
+        height: 25vh;
+        width: 25vh;
+        margin-top: 1em;
+        background-image: url('https://i.imgur.com/s9rOg3o.jpg?1');
         background-size: cover;
         background-repeat: no-repeat;
+        border-radius: 50%;
     }
     
 }

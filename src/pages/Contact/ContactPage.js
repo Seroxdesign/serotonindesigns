@@ -47,10 +47,12 @@ export default class ContactPage extends Component {
         })
     }
 
-    close_form = () => {
-        this.setState({
+    close_form = async () => {
+        await this.setState({
             open_contact_bool: false,
         })
+
+        console.log('test')
     }
 
     open_form = () => {
@@ -76,8 +78,7 @@ export default class ContactPage extends Component {
                         <FaqContainer openForm={this.open_form}/>
                     </div>
 
-                        {this.state.open_contact_bool? <ContactFormS closeForm={this.close_form}/> : <div></div>}
-                        
+                    <div>{this.state.open_contact_bool? <ContactFormS closeForm={this.close_form}/> : ''}</div>
                 
 
 

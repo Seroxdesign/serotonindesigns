@@ -7,7 +7,11 @@ export default function PassionBar(props) {
     return (
             <a>
             <div className="passion-section">
-                <img src={props.img} className="passion-img" alt="" ></img>
+                <img src={props.img} className="passion-img" id={"mobile-only"} alt="" ></img>
+
+                <div className="passion-desktop-img" id={"desktop-only"} style={{backgroundImage: `url("${props.dtImg}")`}}>
+
+                </div>
 
                 <div className="passion-collection">
                     <h3 className="passion-header">{props.title}</h3>

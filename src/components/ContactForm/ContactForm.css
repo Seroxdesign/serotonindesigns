@@ -116,6 +116,13 @@
         margin-left: 85%;
     }
 
+    .close-contact-btn:hover{
+        background-color: rgb(45, 95, 79);
+        color: rgba(255, 255, 255, 0.865);
+        border: 2px solid rgba(255, 255, 255, 0.647);
+        
+    }
+
     .contact-form{
         box-sizing: border-box;
         padding: 2em;
@@ -184,7 +191,14 @@
         height: 5vh;
         border-radius: 50px;
         color: rgba(255, 255, 255, 0.858);
+        cursor: pointer;
         border: 2px solid rgba(255, 255, 255, 0.497);
+    }
+
+    #submit-btn:hover{
+        color: rgba(255, 255, 255, 0.858);
+        border: 2px solid rgba(255, 255, 255, 0.667);
+        background-color: #575757;
     }
     
 

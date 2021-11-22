@@ -93,6 +93,9 @@
 
     .service-img{
         grid-column: 1;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     .service-cta{
@@ -117,5 +120,15 @@
         color: white;
         font-size: large;
         transition: 0.8;
+    }
+
+    .service-head{
+        grid-column: 1/4;
+        grid-row: 1/2;
+        font-size: xx-large;
+        height: 50%;
+        border-bottom: 5px solid #303030;
+        padding-left: 0.7em;
+        padding-top: 0.7em;
     }
 }

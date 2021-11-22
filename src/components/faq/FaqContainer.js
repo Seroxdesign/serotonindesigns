@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import FaqCardS from './FaqCardS'
 import './FaqContainer.css'
 
 export default class FaqContainer extends Component {
@@ -15,16 +14,15 @@ export default class FaqContainer extends Component {
             <div className="faq-container">
                 
                 <div className="faqs">
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
-                    <FaqCardS question={"What's the best place to talk to you?"} answer={"You can find me on my apps"} img={"https://i.imgur.com/8fWIW63.png"} btn={"answer"} color={""}/>
+                    <div className="faq-card" style={{height: '90%', marginTop: '5%'}}>
+
+                    </div>
+                    <div className="faq-card" style={{marginTop: '-0.5em'}}>
+
+                    </div>
+                    <div className="faq-card" style={{height: '90%', marginTop: '5%'}}>
+
+                    </div>
                 </div>
 
                 <div className="contact-cta">

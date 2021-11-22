@@ -40,15 +40,10 @@ export default function IntroductionCard() {
 
                 <Link to={"/contact"}>
                 <Zoom >
-                    <CTAButton title={"contact me"} type={"cta-btn"}/>
+                    <CTAButton title={"contact me"} type={"cta-btn-inv"}/>
                 </Zoom>
                 </Link>   
 
-                <Link to={"/"}>
-                <Zoom>
-                    <CTAButton title={"18+"} type={"cta-btn-inv"}/>
-                </Zoom> 
-                </Link>
                     
 
 

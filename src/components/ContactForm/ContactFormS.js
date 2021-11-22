@@ -17,14 +17,19 @@ export default function ContactForms(props) {
 
     const { register, handleSubmit, watch, errors } = useForm();
     const onSubmit = data => {
-        console.log(data);
-        generateContactNumber();
+        if(data.message !== "" && data.user_email !== "" && data.user_name !== ""){
+            generateContactNumber();
 
-        sendForm('service_9vr2ogp', 'template_cox0qiy','#contact-form').then(function(response) {
-            console.log('SUCCESS!', response.status, response.text);
-          }, function(error) {
-            console.log('FAILED...', error);
-          });
+            sendForm('service_9vr2ogp', 'template_cox0qiy','#contact-form').then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+              }, function(error) {
+                console.log('FAILED...', error);
+              });
+        }
+        else{
+            console.log('needs completion')
+        }
+        
     }
 
     return (
@@ -46,7 +51,7 @@ export default function ContactForms(props) {
          
 
                 <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
-                <button className="close-contact-btn" onClick={props.closeForn} >X</button>
+                <button className="close-contact-btn" onClick={props.closeForm} >X</button>
 
                     <input type='hidden' name='contact_number' value={contactNumber} />
 
