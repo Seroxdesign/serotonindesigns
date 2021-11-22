@@ -43,7 +43,7 @@
         width: 100%;
         margin-top: 2em;
         overflow-x: hidden;
-       
+        padding-bottom: 2em;
        
     }
 
@@ -72,18 +72,18 @@
         height: 5vh;
         margin-top: 0.7em;
         background-color: #303030;
-        color: #bc1823;
-        border: 2px solid #bc1823;
+        color: #1efeff;
+        border: 2px solid #1efeff;
         border-radius: 50px;
     }
 
     .passion-header{
-        color: white;
+        color: rgb(223, 213, 213);
 
     }
 
     .passion-para{
-        color: whitesmoke;
+        color: rgba(245, 245, 245, 0.497);
         font-size: smaller;
         margin-top: 0.7em;
         font-weight: 300;
@@ -120,7 +120,7 @@
 
         border: none;
         background-color: #303030;
-        color: #ff69b4;
+        color: #1efeff;
         font-size: xx-large;
         font-weight: 700;
     }
@@ -147,17 +147,17 @@
    .section-1{
        height: 94vh;
        background-color: rgb(240, 240, 240);
-       background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+       background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
    }
 
    .section-2{
     background-color: rgb(240, 240, 240);
-    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
    }
 
    .section-3{
     background-color: rgb(240, 240, 240);
-    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
     }
 
    #mobile-only{

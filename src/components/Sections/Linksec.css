@@ -26,11 +26,11 @@
 
     .circular-img-link{
         margin-top: 1em;
-        height: 20vh;
-        width: 20vh;
+        height: 25vh;
+        width: 25vh;
         border-radius: 50%;
         border: 5px solid #00000036; 
-        background-image: url('https://i.imgur.com/JwszZNZ.jpg');
+        background-image: url('https://i.imgur.com/OcWRv6x.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.8;
@@ -78,8 +78,8 @@
 
     .link-header{
         margin-top: 1.5em;
-        font-size: medium;
-        color: rgba(0, 0, 0, 0.368);
+        font-size: x-large;
+        color: rgba(0, 0, 0, 0.518);
         text-align: center;
     }
 
@@ -103,9 +103,9 @@
     }
 
     .circular-img-link{
-        height: 70vh;
+        height: 50vh;
         width: 100%;
-        background-image: url('https://i.imgur.com/QsdJMKP.jpg?3');
+        background-image: url('https://i.imgur.com/dlk5YnU.jpg?2');
         background-size: cover;
         background-repeat: no-repeat;
     }

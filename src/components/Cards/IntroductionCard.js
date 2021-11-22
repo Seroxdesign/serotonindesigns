@@ -12,21 +12,24 @@ export default function IntroductionCard() {
         <div className="card-wrapper">
 
             <div className="pic">
-
+                <h6 className="shout-out" id={"desktop-only"}> 
+                SRImages by mediumsizedports on instagram
+                </h6>
+                
             </div>
 
             <div className="info">
                 <div className="intro-img"></div>
 
-                <img src="https://i.imgur.com/QsdJMKP.jpg?2" id={"mobile-only"} className="intro-img"></img>
+                <img src="https://i.imgur.com/Wa26fRG.jpg?1" id={"mobile-only"} className="intro-img"></img>
 
                 <Zoom>
-                    <MainHeader title={"Amy Sky"} />
+                    <MainHeader title={"Sherif Cherfa, Web Developer"} />
                 </Zoom>
 
 
 
-                <Para text={"   My name is Amy, I'm a 22 year gamer and content creator from the UK."}/>           
+                <Para text={"I believe in creating more time for the people around me using web development, automation and marketing."}/>           
 
 
                 <Link to={"/Links"}>

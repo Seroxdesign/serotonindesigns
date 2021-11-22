@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NavbarS from 'components/Navbar/NavbarS'
 import IntroductionCard from 'components/Cards/IntroductionCard'
-
+import SkillCard from 'components/Cards/skillCard'
 import PassionCard from 'components/Cards/PassionCard'
 import Job from 'components/Jobs/Job'
 import Footer from 'components/Footer/Footer'
@@ -53,15 +53,25 @@ export default class Homepage extends Component {
                         <IntroductionCard />
                     </div>
 
+                    <div className="section-3">
+                        <SkillCard title={"My skills"}  img1={"https://i.imgur.com/BAc1iep.png"} img2={"https://i.imgur.com/oqK7CnH.png"} img3={"https://i.imgur.com/JJLma0c.png"} img4={"https://i.imgur.com/PGjfwTi.png"} img5={"https://i.imgur.com/5W1adyZ.png"} img6={"https://i.imgur.com/BF6g2JC.png"} color={"black"} title1={"Web Development"} title2={"Responsive Design"} title3={"Marketing"}  title4={"Sales"} title5={"Bi-lingual"} title6={"Adobe Suite"} />
+                    </div>
+
+
+                    <div className="section-3" >
+                        <Header title={"My passions"} color={"rgba(255,255,255,0.7)"}/>
+                        <PassionCard />
+                    </div>
+
                     <div className="section-2" id={"mobile-only"}>
                         <Header  title={"Connect with me"} color={"rgba(255,255,255,0.7)"}/>
-                        <Job img1={"https://i.imgur.com/b9tMY4n.png"} img2={"https://i.imgur.com/rECPuqW.png"} img3={"https://i.imgur.com/CdTrAJ3.png"}></Job>
+                        <Job img1={""} img2={""} img3={""}></Job>
                         
                     </div>
 
                     <div className="section-2" id={"mobile-only"}>
                         <Header  title={"For creators"} color={"rgba(255,255,255,0.7)"}/>
-                        <Job img1={"https://i.imgur.com/QFm22BX.png"} img2={"https://i.imgur.com/1Th6vhz.png"} img3={"https://i.imgur.com/jZUfwUf.png"}></Job>
+                        <Job img1={""} img2={""} img3={""}></Job>
                         
                     </div>
 
@@ -69,10 +79,6 @@ export default class Homepage extends Component {
                         <ServiceReel />
                     </div>
                   
-                    <div className="section-3" >
-                        <Header title={"Recommended Creators"} color={"rgba(255,255,255,0.7)"}/>
-                        <PassionCard />
-                    </div>
 
                     <div className="section-3">
                         <Footer />

@@ -30,15 +30,16 @@ export default class NavbarS extends Component {
 
             <div className="desktop-nav-only">
 
-                <Link to={"/links"} onClick={()=> {this.highlight_tab('links')}}>
-                    <h3 className="navbar-link" id={this.state.highlighted_tab==="links" ? 'highlight' : ''}>Links</h3>
-                </Link>
+           
 
 
                 <Link to={"/"} value="home" onClick={()=> {this.highlight_tab('home')}}>
                     <h3 className="navbar-link"  id={this.state.highlighted_tab==="home" ? 'highlight' : ''}>Home</h3>
                 </Link>
 
+                <Link to={"/links"} onClick={()=> {this.highlight_tab('links')}}>
+                    <h3 className="navbar-link" id={this.state.highlighted_tab==="links" ? 'highlight' : ''}>Links</h3>
+                </Link>
                
                 <Link to={"/contact"} onClick={()=> {this.highlight_tab('contact')}}>
                     <h3 className="navbar-link"  id={this.state.highlighted_tab==="contact" ? 'highlight' : ''}>Contact me</h3>

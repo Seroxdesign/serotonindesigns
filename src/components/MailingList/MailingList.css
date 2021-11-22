@@ -16,7 +16,7 @@
         border-radius: 5%;
         background-color: #3c3c3cdb;
         color: white;
-        border: 2px solid #eb3340; 
+        border: 2px solid #1efeff; 
         box-sizing: border-box;
         padding: 1em;
 
@@ -27,7 +27,7 @@
     }
 
     .mailing-header{
-        color: #eb3340;
+        color: #1efeff;
         text-align: center;
         margin-top: 0.7em;
     }
@@ -45,8 +45,8 @@
    
     .mailing-btn{
         background-color: #303030;
-        border: 2px solid #eb3340;
-        color: #eb3340;
+        border: 2px solid #1efeff;
+        color: #1efeff;
         margin-top: 2em;
         border-radius: 50px;
         height: 3em;

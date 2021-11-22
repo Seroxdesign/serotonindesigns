@@ -16,8 +16,8 @@ export default class ServiceReel extends Component {
         }
     }
 
-    service_img_fans = ['https://i.imgur.com/b9tMY4n.png', 'https://i.imgur.com/rECPuqW.png', 'https://i.imgur.com/CdTrAJ3.png']
-    service_img_creators = ['https://i.imgur.com/QFm22BX.png', 'https://i.imgur.com/1Th6vhz.png', 'https://i.imgur.com/jZUfwUf.png']
+    service_img_fans = []
+    service_img_creators = []
 
     switch_display = async (audience, img_set) => {
         let display_imgs = []
@@ -45,9 +45,8 @@ export default class ServiceReel extends Component {
         return (
             <div className="service-wrapper">
 
-                <nav className="service-choice">
-                    <h5 className="service-choice-title" id={this.state.display_for==='fans'? 'highlight' : ''} onClick={()=> {this.switch_display('fans', 'fans')}}>For Fans</h5>
-                    <h5 className="service-choice-title" id={this.state.display_for==='creators'? 'highlight' : ''} onClick={()=> {this.switch_display('creators', 'creators')   }}>For Creators</h5>
+                <nav className="service-choice" >
+                    <h5 className="service-choice-title" id={this.state.display_for==='fans'? '' : ''} >MY WORK</h5>
                 </nav>
                 <Fade left="true">
                     <main className="service-body">
@@ -64,19 +63,19 @@ export default class ServiceReel extends Component {
                         <li className="service-item" onClick={()=> {
                         this.switch_service(0)
                     }} id={this.state.service===0? 'highlight-service' : ''}>  
-                            {this.state.display_for==='fans' ? 'Gaming' : 'Advice'}
+                            {this.state.display_for==='fans' ? 'AMYSKY LTD' : 'Advice'}
                         </li>
 
                         <li className="service-item" onClick={()=> {
                         this.switch_service(1)
                     }} id={this.state.service===1? 'highlight-service' : ''}>  
-                            {this.state.display_for==='fans' ? 'Cameo' : 'Shout Outs'}
+                            {this.state.display_for==='fans' ? 'Freelance Developer' : 'Shout Outs'}
                         </li>
 
                         <li className="service-item" onClick={()=> {
                         this.switch_service(2)
                     }} id={this.state.service===2? 'highlight-service' : ''}>  
-                            {this.state.display_for==='fans' ? 'Community' : 'Account management'}
+                            {this.state.display_for==='fans' ? 'Social Media Management' : 'Account management'}
                         </li>
                     </ul>
                 </footer>

@@ -40,20 +40,14 @@
     }
 
     .service-choice-title{
-        color: rgb(187, 187, 187);
+        color: rgb(230, 230, 230);
         cursor: pointer;
-        font-size: medium;
+        font-size:x-large;
    
-        padding-bottom: 0.5em;
+        
         
     }
 
-    .service-choice-title:hover{
-        color: rgb(255, 255, 255);
-        cursor: pointer;
-        font-size: large;
-        border-bottom: 3px solid #d58e8e30;
-    }
 
     .service-index-list{
         height: 100%;
@@ -65,7 +59,7 @@
     }
 
     .service-item{
-        border-top: 3px solid #b8b6b630;
+        border-top: 3px solid rgb(31, 63, 53);
         height: 100%;
         width: 100%;
         color: rgb(187, 187, 187);
@@ -76,7 +70,7 @@
     }
 
     .service-item:hover{
-        border-top: 3px solid rgb(114, 48, 48);
+        border-top: 3px solid rgb(41, 83, 70);
         height: 100%;
         width: 100%;
         color: white;
@@ -87,7 +81,7 @@
     }
 
     .service-body{
-        background-color: azure;
+        background-color: #c4c4c4;
         width: 75%;
         margin-left: 12.5%;
         height: 95%;
@@ -107,19 +101,19 @@
         grid-column: 2;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: #c7121230;
+        background-color: #0000007a;
     }
 
     #highlight{
         color: white;
         font-size: large;
         transition: 0.8;
-        border-bottom: 3px solid #f1b4b430;
+        border-bottom: 3px solid rgb(31, 63, 53);
     }
 
     #highlight-service{
         
-        border-top: 3px solid rgb(129, 58, 58);
+        border-top: 3px solid rgb(54, 124, 102);
         color: white;
         font-size: large;
         transition: 0.8;

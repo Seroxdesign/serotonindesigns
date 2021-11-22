@@ -12,6 +12,7 @@
         align-items: center;
         justify-content: space-between;
         box-sizing: content-box;
+        z-index: 2;
     }
 
     .navbar-header{
@@ -48,8 +49,8 @@
 
 
     .desktop-nav-only{
-        margin-left: 30%;
-        width: 40%;
+        margin-left: 70%;
+        width: 25%;
         height: 6vh;
         
         display: flex;
@@ -67,7 +68,7 @@
     }
 
     #highlight{
-        border-bottom: 3px solid rgb(75, 52, 52);
+        border-bottom: 3px solid rgb(65, 155, 126);
         color: rgba(255, 255, 255, 0.845);
         font-size: smaller;
     }
