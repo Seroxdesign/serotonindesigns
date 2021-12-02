@@ -24,7 +24,7 @@
 
     .job-card-wrapper{
         margin-top: 1em;
-        width: 75vw;
+        width: 85vw;
         margin-left: 1em;
         background-color: rgb(216, 214, 214);
         display: grid;
@@ -67,7 +67,7 @@
         height: 100%;
         width: 100%;
         box-sizing: border-box;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
     }
 
