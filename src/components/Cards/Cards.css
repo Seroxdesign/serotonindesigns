@@ -298,14 +298,13 @@
         padding: 1em;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em; 
     }
 
     .passion-section{
         height: 80vh;
         margin-top: 10vh;
-        width: 90%;
-        margin-left: 5%;
-   
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;

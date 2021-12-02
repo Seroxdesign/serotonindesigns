@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './FaqContainer.css'
+import Faq from './Faq'
 
 export default class FaqContainer extends Component {
     constructor(props){
@@ -14,15 +15,9 @@ export default class FaqContainer extends Component {
             <div className="faq-container">
                 
                 <div className="faqs">
-                    <div className="faq-card" style={{height: '90%', marginTop: '5%'}}>
-
-                    </div>
-                    <div className="faq-card" style={{marginTop: '-0.5em'}}>
-
-                    </div>
-                    <div className="faq-card" style={{height: '90%', marginTop: '5%'}}>
-
-                    </div>
+                   <Faq/>
+                   <Faq/>
+                   <Faq/>
                 </div>
 
                 <div className="contact-cta">

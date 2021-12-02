@@ -176,7 +176,7 @@
         padding: 1em;
         display: flex;
         flex-direction: column;
-        background-color:  rgb(35, 116, 90);
+        background-color:  rgb(36, 51, 46);
         border-radius: 2%;
     
     }
@@ -292,6 +292,7 @@
 
     #check{
         color: white;
+        font-size: large;
     }
 
     #checkbox{

@@ -17,9 +17,9 @@ export default class Job extends Component {
                 
 
                 <div className="scroller">
-                    <JobLogoCard img={this.props.img1}/>
-                    <JobLogoCard img={this.props.img2}/>
-                    <JobLogoCard img={this.props.img3}/>
+                    <JobLogoCard img={this.props.img1} link={this.props.link}/>
+                    <JobLogoCard img={this.props.img2} link={this.props.link1}/>
+                    <JobLogoCard img={this.props.img3} link={this.props.link2}/>
                 </div>
             </div>
         )

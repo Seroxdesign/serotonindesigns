@@ -23,9 +23,9 @@ export default function IntroductionCard() {
                 </Zoom>
 
 
-
+                <Zoom>
                 <Para text={"I believe in creating more time for the people around me using web development, automation and marketing."}/>           
-
+                </Zoom>
 
                 <Link to={"/Links"}>
                 <Zoom >

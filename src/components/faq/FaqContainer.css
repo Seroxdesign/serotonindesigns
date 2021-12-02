@@ -18,8 +18,7 @@
     .faq-container{
         height: 94vh;
         width: 100%;
-        background-color: rgb(240, 240, 240);
-        background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+        background-color: rgb(111, 111, 111);
         display: grid;
         grid-template-rows: 85% 15%;
     }
@@ -51,6 +50,16 @@
 
         height: 7vh;
         background-color:  #303030;
+        border: 3px solid white;
+        color: white;
+        cursor: pointer;
+    }
+
+    .contact-btn:hover{
+        width: 15vw;
+
+        height: 7vh;
+        background-color:  #3f3f3f;
         border: 3px solid white;
         color: white;
     }

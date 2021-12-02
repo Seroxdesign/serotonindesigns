@@ -147,17 +147,16 @@
    .section-1{
        height: 94vh;
        background-color: rgb(111, 111, 111);
-       background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+   
    }
 
    .section-2{
     background-color: rgb(111, 111, 111);
-    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+
    }
 
    .section-3{
     background-color: rgb(111, 111, 111);
-    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
     }
 
    #mobile-only{

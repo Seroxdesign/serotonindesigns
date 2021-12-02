@@ -13,7 +13,7 @@ export default class ContactPage extends Component {
         this.state={
             nav_status: false,
             message_bool: false,
-            open_contact_bool: true,
+            open_contact_bool: false,
         }
     }
 

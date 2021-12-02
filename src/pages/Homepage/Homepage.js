@@ -67,7 +67,7 @@ export default class Homepage extends Component {
 
                     <div className="section-3" >
                         <Header  title={"My work"} color={"rgba(255,255,255,0.7)"}/>
-                        <Job img1={"https://i.imgur.com/N6VVZM5.png"} img2={"https://i.imgur.com/OZ9Si2i.png"} img3={"https://i.imgur.com/rT4gO4S.png"}></Job>
+                        <Job link={"https://www.amysky99.com"} link1={"https://www.linktr.ee/amysky99"} link2={"https://www.upwork.com/freelancers/~012c34c2572c7f7719"} img1={"https://i.imgur.com/N6VVZM5.png"} img3={"https://i.imgur.com/OZ9Si2i.png"} img2={"https://i.imgur.com/rT4gO4S.png"}></Job>
                         
                     </div>
 

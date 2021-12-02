@@ -154,7 +154,7 @@
     background-color:  #303030;
     border: 2px solid #54976a ;
     color: #54976a;
-   
+   cursor: pointer;
 }
 
 .btn-job:hover{
@@ -170,5 +170,6 @@
 
 .img-jl{
     filter: brightness(0) invert(1);
+    height: 1em;
 }
 }
