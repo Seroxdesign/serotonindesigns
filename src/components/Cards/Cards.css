@@ -63,7 +63,7 @@
         width: 100%;
         display: grid;
         grid-template-rows: repeat(3, 1fr);
-        margin-top: 2em;
+
         padding-bottom: 2em;
     }
 
@@ -146,19 +146,18 @@
 @media only screen and (min-width: 1024px){
    .card-wrapper{
     box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
-       width: 75%;
-       margin-left: 12.5%;
-       height: 95%;
-       margin-top: 1%;
+    width: 100%;
+    height: 100%;
        background-color: #303030;
-       border-radius: 5%;
        display: grid;
-       grid-template-columns: repeat(2, 1fr); 
+       grid-template-columns: 70% 30%; 
     }
 
     .pic{
+        border-radius: 0%;
         background-image: url("https://i.imgur.com/EQDATff.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .shout-out{
@@ -172,8 +171,8 @@
     .info{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        padding-left: 5em;
+        background: linear-gradient(135deg, rgb(47, 88, 75), rgb(31, 63, 53));
         height: 100%;
         width: 100%;
         background-color: rgb(31, 63, 53);
@@ -285,10 +284,46 @@
     }
 
     .passion-cta:hover{
-        border: 3px solid rgb(41, 107, 86);
+        border: 3px solid #54976a ;
         background-color: rgb(218, 218, 218);
         color: rgb(31, 63, 53);
     }
+
+    
+    .card-wrapper-triple{
+        height: 100vh;
+        width: 80%;
+        margin-left: 10%;
+        box-sizing: border-box;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .passion-section{
+        height: 80vh;
+        margin-top: 10vh;
+        width: 90%;
+        margin-left: 5%;
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: white;
+        box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.1);
+
+    }
+
+    .test-talent-strip{
+        height: 10vh;
+        width: 90%;
+        margin-top: 2em;
+     
+        display: flex;
+        flex-direction: row;
+    }
+   
 }
 
 

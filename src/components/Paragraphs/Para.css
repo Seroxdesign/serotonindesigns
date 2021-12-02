@@ -13,13 +13,12 @@
 
 @media only screen and (min-width: 1024px){
     .para-text{
-        width: 60%;
-
-        margin-top: 1.4em;
-        text-align: center;
+        width: 50%;
+        margin-top: 2em;
+        margin-bottom: 2em;
         font-weight: 300;
         line-height: 1.2em;
         color: rgba(238, 238, 238, 0.603);
-        font-size: smaller;
+        font-size: medium;
     }
 }

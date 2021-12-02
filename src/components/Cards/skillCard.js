@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from 'components/Headers/Header';
 import MiniCard from './MiniCard'
 import Fade from 'react-reveal/Fade';
 
@@ -7,7 +6,6 @@ export default function SkillCard(props) {
     return (
     
             <div className="skill-wrapper">
-                <Header title={props.title}  color={'rgba(255,255,255, 0.5)'}/>
 
                 
                 <div className="skill-grid">

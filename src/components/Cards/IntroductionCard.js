@@ -11,12 +11,7 @@ export default function IntroductionCard() {
     return (
         <div className="card-wrapper">
 
-            <div className="pic">
-                <h6 className="shout-out" id={"desktop-only"}> 
-                SRImages by mediumsizedports on instagram
-                </h6>
-                
-            </div>
+           
 
             <div className="info">
                 <div className="intro-img"></div>
@@ -48,8 +43,19 @@ export default function IntroductionCard() {
 
 
                 <h6 className="mini-header-scroll">Scroll down for more.</h6>
+
+                <div className="test-talent-strip">
+
+                </div>
             </div>
             
+
+            <div className="pic">
+                <h6 className="shout-out" id={"desktop-only"}> 
+                SRImages by mediumsizedports on instagram
+                </h6>
+                
+            </div>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 
 @media only screen and (max-width: 1023px){
     .job-wrapper{
-        height: 80vh;
+        height: 100vh;
         width: 100vw;
         background-color: #292828;
         margin-top: 1em;
@@ -24,11 +24,11 @@
 
     .job-card-wrapper{
         margin-top: 1em;
-        width: 70vw;
+        width: 75vw;
         margin-left: 1em;
         background-color: rgb(216, 214, 214);
         display: grid;
-        grid-template-rows: 80% 20%;
+        grid-template-rows: 82% 18%;
         box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
     }
     
@@ -37,17 +37,28 @@
         background-color: #202020;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content:space-around;
     }
 
     .btn-job{
     
-        height: 40%;
-        width: 70%;
-        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color:  #303030;
+        border: 2px solid #54976a ;
+        color: #54976a;
+       
+    }
+
+    .btn-job:hover{
+    
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
         background-color:  #202020;
-        border: 2px solid #1efeff ;
-        color: #1efeff;
+        border: 2px solid #54976a ;
+        color: #54976a;
        
     }
 
@@ -56,11 +67,8 @@
         height: 100%;
         width: 100%;
         box-sizing: border-box;
-        background-size: contain;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
   
@@ -87,6 +95,10 @@
     .circular-img{
         height: 100%;
     }
+
+    .img-jl{
+        filter: brightness(0) invert(1);
+    }
 }
 
 @media only screen and (min-width: 1024px){
@@ -98,17 +110,65 @@
 
    .scroller{
        width: 80%;
+       padding-bottom: 2em;
        margin-left: 10%;
        display: grid;
        grid-template-columns: repeat(3, 1fr);
    }
 
    .job-card-wrapper{
-       background-color: #303030;
-       height: 40vh;
-       width: 80%;
-       margin-left: 10%;
-       margin-top: 10%; 
-       box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
+    margin-top: 1em;
+    width: 25vw;
+    height: 90vh;
+    margin-left: 1em;
+    background-color: rgb(216, 214, 214);
+    display: grid;
+    grid-template-rows: 82% 18%;
+    box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
+
    }
+
+   .top-card{
+    grid-row: 1;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    
+.bottom-card{
+    grid-row: 2;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.btn-job{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:  #303030;
+    border: 2px solid #54976a ;
+    color: #54976a;
+   
+}
+
+.btn-job:hover{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:  #202020;
+    border: 2px solid #54976a ;
+    color: #54976a;
+   
+}
+
+.img-jl{
+    filter: brightness(0) invert(1);
+}
 }

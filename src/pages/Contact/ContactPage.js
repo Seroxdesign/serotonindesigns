@@ -13,7 +13,7 @@ export default class ContactPage extends Component {
         this.state={
             nav_status: false,
             message_bool: false,
-            open_contact_bool: false,
+            open_contact_bool: true,
         }
     }
 
@@ -74,11 +74,13 @@ export default class ContactPage extends Component {
 
                 <div className="content-wrapper" >
                    
-                    <div className="section-3">
+                    <div className="section-3" id={"desktop-only"}>
                         <FaqContainer openForm={this.open_form}/>
                     </div>
 
-                    <div>{this.state.open_contact_bool? <ContactFormS closeForm={this.close_form}/> : ''}</div>
+                    <div id={this.state.open_contact_bool? '' : 'invisible'}>
+                        <ContactFormS form_sent={this.message_sent} close_form={this.close_form}/>
+                    </div>
                 
 
 

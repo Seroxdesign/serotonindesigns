@@ -15,6 +15,7 @@ export default function ContactForms(props) {
         setContactNumber(numStr.substring(numStr.length - 6));
     }
 
+
     const { register, handleSubmit, watch, errors } = useForm();
     const onSubmit = data => {
         if(data.message !== "" && data.user_email !== "" && data.user_name !== ""){
@@ -30,11 +31,34 @@ export default function ContactForms(props) {
             console.log('needs completion')
         }
         
+        
     }
 
     return (
         <div className="contact-form-wrapper">
           
+           
+
+            <div className="contact-form">
+         
+
+                <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
+                    <button className="close-contact-btn" id={"desktop-only"} onClick={() =>{props.close_form()}}>x</button>
+                    <input type='hidden' name='contact_number' value={contactNumber} />
+
+                    <input type='text' name='user_name' {...register('user_name')} placeholder='Name' required />
+                
+                    <input type='email'  name='user_email' {...register('user_email')} placeholder='Email' required />
+               
+                    <textarea name='message' {...register('message')} placeholder='Message' required/>
+
+                    <label id={"check"}>By checking this box I agree to receive <em>Contact</em>, news and offers from Serotonindesigns</label>
+                    <input id={"checkbox"} type="checkbox" {...register('mailing_list')}/>
+                 
+                    <input type='submit' id="submit-btn" value='Send'  onClick={props.form_sent} />
+                </form>
+            </div>
+
             <div className="contact-options">
                 <div className="contact-option">
                     <img className="circle-option" src="https://i.imgur.com/vxNshty.png" alt=""></img>
@@ -46,26 +70,6 @@ export default function ContactForms(props) {
                     <h3 className="email-option">Sherifcherfa@gmail.com</h3>
                 </div>
             </div>
-
-            <div className="contact-form">
-         
-
-                <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
-                <button className="close-contact-btn" onClick={props.closeForm} >X</button>
-
-                    <input type='hidden' name='contact_number' value={contactNumber} />
-
-                    <input type='text' name='user_name' {...register('user_name')} placeholder='Name'  />
-                
-                    <input type='email'  name='user_email' {...register('user_email')} placeholder='Email'  />
-               
-                    <textarea name='message' {...register('message')} placeholder='Message'/>
-                 
-                    <input type='submit' id="submit-btn" value='Send'  onClick={props.sent} />
-                </form>
-            </div>
-
-            
         </div>
     )
 }

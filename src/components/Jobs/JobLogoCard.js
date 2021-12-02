@@ -12,8 +12,8 @@ export default function JobLogoCard(props) {
         
             <div className="bottom-card">
         
-                <a className="btn-job" href="" target="_blank" style={{border: props.bc, color: props.btc,display: 'flex', alignItems: 'center', justifyContent: 'center'}}>Contact me</a>
-            
+                <a className="btn-job" href={props.site} target="_blank" style={{border: props.bc, color: props.btc,display: 'flex', alignItems: 'center', justifyContent: 'center'}}><img src="https://i.imgur.com/ncwd5I8.png" alt="" className="img-jl"></img></a>
+                <a className="btn-job" href="https://www.serotonindesigns.com/contact" target="_blank" style={{border: props.bc, color: props.btc,display: 'flex', alignItems: 'center', justifyContent: 'center'}}><img src="https://i.imgur.com/KsB47J3.png" alt="" className="img-jl"></img></a>
             </div>
          
         </div>

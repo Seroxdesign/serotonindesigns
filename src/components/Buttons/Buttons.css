@@ -6,15 +6,15 @@
         margin-left: 25vw;
         border-radius: 50px;
         background-color: #292828;
-        border: 3px solid #29bdbd;
-        color: #29bdbd;
+        border: 3px solid #54976a ;
+        color: #54976a ;
         box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.088);
         font-weight: 800;
         font-size: medium;
     }
 
     .cta-btn-inv{
-        background-color:#29bdbd;
+        background-color:#54976a ;
         
         color:  #292828;
         margin-top: 1.3em;
@@ -29,8 +29,8 @@
 
 @media only screen and (min-width: 1024px){
     .cta-btn{
-        width: 15vw;
-        height: 6vh;
+        width: 20vw;
+        height: 7vh;
         margin-top: 1.5em;
         background-color: rgb(31, 63, 53);
         color: white;
@@ -39,11 +39,24 @@
     }
 
     .cta-btn-inv{
-        width: 15vw;
-        height: 6vh;
+        width: 20vw;
+        height: 7vh;
         margin-top: 1.5em;
         background-color: white;
         border: 2px solid white;
+        border-radius: 50px;
+    }
+
+    .cta-btn:hover{
+        background-color: rgb(26, 48, 41);
+        color: white;
+        border: 2px solid rgb(143, 247, 179);
+        border-radius: 50px;
+    }
+
+    .cta-btn-inv:hover{
+        background-color: rgb(175, 225, 213);
+        border: 2px solid rgb(59, 150, 116);
         border-radius: 50px;
     }
 }
