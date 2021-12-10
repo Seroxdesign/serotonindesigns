@@ -1,301 +1,157 @@
 @media only screen and (max-width: 1023px){
-    .contact-form-wrapper{
-        height: 100%;
-        width: 100%;
-        padding: 1em;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 1em;
-        border-bottom: 2px solid white;
-     
-    }
-
-
     #contact-form{
+        height: 100vh;
         display: flex;
+        align-items: center;
         flex-direction: column;
-        align-items: left;
-        justify-content: left;
-        padding-top: 1em;
-        border-bottom: 2px solid rgba(160, 154, 154, 0.191);
+        background-color: #302f2f;
+        padding: 1em;
+        padding-top: 0em;
         padding-bottom: 2em;
-    }   
-    
-    input{
-        margin-left: 10%;
-        width: 80%;
-        height: 4vh;
-        margin-top: 0.5em;
-        border-radius: 10px;
-        color: rgba(255, 255, 255, 0.837);
-        border: 1px solid #54976a ;
-        background-color: #3c3c3cdb;
-        outline: none !important;
-        padding: 1em;
-       
     }
 
-    label{
-        color: rgba(223, 197, 197, 0.518);
-        margin-left: 10%;
-        box-sizing: border-box;
-        margin-top: 1em;
-        border-top: 1px solid rgba(255, 255, 255, 0.259);
-        width: 80%;
-        padding-top: 1em;
+    .header-contact-b{
+        color: white;
         text-align: left;
-        font-size:small;
+        margin-top: 3em;
+        margin-bottom: 1em;
     }
 
-    textarea{
-        margin-left: 10%;
-        margin-top: 1em;
-        height: 50vh;
-        box-sizing: border-box;
+    .thanks{
+        font-size: medium;
+        align-items: center;
+        width: 70%;
+        color: white;
+        border: 2px solid white;
+        height: 20vh;
         padding: 1em;
-        width: 80%;
-        border: 1px solid #54976a ;
-        background-color: #3c3c3cdb;
-        color: rgba(255, 255, 255, 0.837);
-        border-radius: 10px;
     }
 
-    select{
-        margin-left: 10%;
+    .field{
+        width: 80vw;
         margin-top: 0.5em;
-        width: 80%;
-        height: 4vh;
-        background-color: #3c3c3cdb;
-        color: rgba(255, 255, 255, 0.837);
-        border: 1px solid #54976a ;
-        text-align: left;
-        border-radius: 10px;
-        padding-left: 0.5em;
+        
     }
-    
-    #submit-btn{
-        color: #54976a ;
-       
+
+    .submit-btn{
         height: 8vh;
-        background-color: #303030;
-        box-sizing: border-box;
-        padding: 0em;
+        margin-top: 2em;
+        width: 20vw;
         cursor: pointer;
     }
 
+    
     #submit-btn:hover{
-        color: #6c9d7c ;
-        background-color: #636363;
+        background-color: #0d9a79;
     }
 
-    .newsletter-sign-up{
-        margin-top: 0.5em;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        margin-left: 10%;
+    input{ 
+        width: 100%;
+        height: 5vh;
+        padding: 1em;
+        background-color: #5a5959;
+        color: white;
+        border: 2px solid #0d9a79;
     }
 
-    .newsletter-para{
-        font-size: xx-small;
-        text-align: left;
-        width: 200%;
-        color: rgba(255, 255, 255, 0.442);
+    select{
+        width: 100%;
+        height: 5vh;
+        padding-left: 1em;
+        background-color: #5a5959;
+        border: 2px solid #0d9a79;
+        color: white;
     }
 
-    .contact-option{
-        margin-left: 10%;
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .email-option{
-        color: rgba(255, 255, 255, 0.565);
-        margin-left: 1em;
-        margin-top: 1em;
-    }
-    .phone-option{
-        color: rgba(255, 255, 255, 0.565);
-        margin-left: 1em;
-        margin-top: 1em;
-        text-decoration: underline;
-    }
-
-    .circle-option{
-        margin-top: 1em;
-        filter: brightness(0) invert(1);
+    textarea{
+        width: 100%;
+        height: 40vh;
+        background-color: #5a5959;
+        border: 2px solid #0d9a79;
+        padding: 1em;
+        color: white;
     }
 }
 
 
 /* */
 
+
+
+
 @media only screen and (min-width: 1024px){
-    
-    .close-contact-btn{
-        background-color: rgb(31, 63, 53);
-        color: white;
-        border: 2px solid white;
-        font-weight: 800;
-        font-size: large;
-        width: 2.4vw;
-        height: 2.4vw;
-        margin-left: 85%;
-    }
-
-    .close-contact-btn:hover{
-        background-color: rgb(56, 88, 78);
-        color: rgba(255, 255, 255, 0.865);
-        border: 2px solid rgba(255, 255, 255, 0.647);
-        
-    }
-
-    .contact-form{
-        box-sizing: border-box;
-        padding: 2em;
-        height: 100vh;
-        width: 100vw;
-        position:fixed;
-        top: 0;
-        z-index: 4;
-        background-color:#2424246f;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-    }
-
     #contact-form{
         height: 90vh;
-        width: 30%;
-        margin-left: 35%;
-        padding: 1em;
-        display: flex;
-        flex-direction: column;
-        background-color:  rgb(36, 51, 46);
-        border-radius: 2%;
-    
-    }
-
-    
-
-    input{
-        width: 80%;
-        margin-top: 1em;
-        margin-left: 10%;
-        height: 5vh;
-        background-color: #303030;
-        color: rgba(255, 255, 255, 0.783);
-        border: 2px solid rgba(0, 0, 0, 0.858);
-        box-sizing: border-box;
-        padding: 0.5em;
-      
-    }
-
-    textarea{
-        width: 80%;
-        margin-top: 1em;
-        margin-left: 10%;
-        height: 70%;
-        background-color: #303030;
-        color: rgba(255, 255, 255, 0.865);
-        border: 2px solid rgba(0, 0, 0, 0.858);
-        box-sizing: border-box;
-        padding: 0.5em;
-       
-       
-    }
-
-    .newsletter-sign-up{
-        display: flex;
-        flex-direction: row;
-        height: 8vh;
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    #submit-btn{
-        height: 5vh;
-        border-radius: 50px;
-        color: rgba(255, 255, 255, 0.858);
-        cursor: pointer;
-        border: 2px solid rgba(0, 0, 0, 0.858);
-    }
-
-    #submit-btn:hover{
-        color: rgba(255, 255, 255, 0.858);
-        border: 2px solid rgba(255, 255, 255, 0.667);
-        background-color: #575757;
-    }
-    
-
-    .check{
-        height: 3vh;
-        margin-top: 1.5em;
-    }
-
-    .newsletter-para{
-        width: 40vw;
-        color: rgb(213, 213, 213);
-        font-size: smaller;
-        margin-top: 2em;
-        font-size: x-small;
-    }
-
-
-    .contact-options{
-        margin-left: 33%;
-  
         width: 30vw;
-        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3em;
         padding: 1em;
+        padding-bottom: 2em;
+        margin-bottom: 2em;
+        box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
     }
 
-    .contact-option{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .header-contact-b{
+        color: white;
+        text-align: left;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    .field{
+        width: 20vw;
+        margin-top: 0.5em;
         
     }
 
-    .phone-option{
-        margin-left: 1em;
+    .submit-btn{
+        height: 8vh;
+        margin-top: 2em;
+        width: 20vw;
+        cursor: pointer;
     }
 
-    .email-option{
-        margin-left: 1em;
+    
+    #submit-btn:hover{
+        background-color: rgb(9, 107, 84);
     }
 
-    .circle-option{
-        width: 3vw;
-        height: 3vw;
-        filter: brightness(0) invert(1);
-    }
-
-    label{
-        display: none;
+    input{ 
+        width: 100%;
+        height: 5vh;
+        padding: 1em;
+        background-color: #3f3e3e;
+        color: white;
+        border: 2px solid rgb(9, 107, 84);
     }
 
     select{
+        width: 100%;
         height: 5vh;
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 1em;
-        background-color: #303030;
-        color: rgba(255, 255, 255, 0.497);
-        border: 2px solid rgba(73, 73, 73, 0.497);
-    }
-
-    #check{
+        padding-left: 1em;
+        background-color: #3f3e3e;
+        border: 2px solid rgb(9, 107, 84);
         color: white;
-        font-size: large;
     }
 
-    #checkbox{
-        height: 20px;
+    textarea{
+        width: 100%;
+        height: 40vh;
+        background-color: #3f3e3e;
+        border: 2px solid rgb(9, 107, 84);
+        padding: 1em;
+        color: white;
+    }
+
+    .thanks{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        color: white;
+        
     }
 }

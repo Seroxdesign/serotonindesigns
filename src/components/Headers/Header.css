@@ -5,12 +5,13 @@
         font-family:Arial, Helvetica, sans-serif;
         color: #303030;
         text-shadow: 1px 2px rgba(0, 0, 0, 0.168);
-        color: rgb(72, 70, 70);
+        color: rgb(73, 32, 37);
         height: 1.5em;
         font-weight: 600;
         width: 80%;
         margin-left: 5%;
         font-size: large;
+        height: 3em;
     }
 
     .intro-img{
@@ -18,7 +19,8 @@
     }
 
     .main-header-wrapper{
-        color: #54976a ;
+         color: #13aa87;
+        
         margin-left: 10%;
         width: 80%;
         margin-top: 1.5em;
@@ -38,14 +40,16 @@
 
 @media only screen and (min-width: 1024px){
     .main-header-wrapper{
-        text-shadow: 4px 6px #303030;
-        text-align: left;
-        color: rgb(177, 177, 177);
-        margin-top: 1em;
-        font-size: 75px;
+        text-align: center;
+        font-size: 50px;
+    
+        color: #13aa87;
     }
 
     .header{
-        display: none;
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        color: #096b54;
     }
 }

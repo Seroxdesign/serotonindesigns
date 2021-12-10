@@ -6,7 +6,7 @@ export default function DropDown() {
     return (
         <ul className="menu">
             <li className="menu-item"> 
-                <Link to={"/"}><h3>Home</h3></Link>
+                <Link to={"/"}><h3 className="menu-t">Home</h3></Link>
             </li>
 
             <li className="menu-item"> 

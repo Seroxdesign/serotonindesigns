@@ -12,7 +12,6 @@
         align-items: center;
         justify-content: space-between;
         box-sizing: content-box;
-        z-index: 2;
     }
 
     .navbar-header{
@@ -34,42 +33,44 @@
     .desktop-nav-only{
         display: none;
     }
+
+    .navbar-link{
+        color: rgba(34, 32, 32, 0.599);
+        font-size: small;
+        margin-left: 1em;
+    }
 }
 
 @media only screen and (min-width: 1024px){
     .navbar-wrapper{
-        height: 6vh;
-        background-color: #202020;
-
+        height: 5vh;
+        width: 100vw;
+        position: fixed;
+        top:0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(41, 41, 41, 0.97);
+        z-index: 100;
     }
-
-    .navbar-img{
-        height: 0em;
-    }
-
 
     .desktop-nav-only{
-        margin-left: 70%;
-        width: 25%;
-        height: 6vh;
-        
         display: flex;
+        flex-direction: row;
+        width: 30vw;
+        margin-left: 70vw;
         align-items: center;
         justify-content: space-around;
     }
 
-    .navbar-menu{
-        display: none;
-    }
-    
     .navbar-link{
-        color: rgba(255, 255, 255, 0.445);
-        font-size: smaller;
+        color: rgba(255, 255, 255, 0.599);
+        font-size: small;
+        margin-left: 1em;
     }
 
     #highlight{
-        border-bottom: 3px solid rgb(65, 155, 126);
-        color: rgba(255, 255, 255, 0.845);
-        font-size: smaller;
+        color: rgb(255, 255, 255);
     }
 }

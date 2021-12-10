@@ -1,62 +1,108 @@
 @media only screen and (max-width: 1023px){
     .cta-btn{
-        margin-top: 1.3em;
+        margin-top: 1em;
         height: 7vh;
         width: 50vw;
-        margin-left: 25vw;
         border-radius: 50px;
-        background-color: #292828;
-        border: 3px solid #54976a ;
-        color: #54976a ;
+        background-color: #303030;
+        border: 3px solid #0d9a79;
+        color:  #0d9a79;
         box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.088);
         font-weight: 800;
         font-size: medium;
     }
 
+    .intro-img{
+       height: 35%;
+    }
+
     .cta-btn-inv{
-        background-color:#54976a ;
+        background-color: #0d9a79;;
         
-        color:  #292828;
-        margin-top: 1.3em;
+        color:  #ffffff;
+        margin-top: 1em;
         height: 7vh;
         width: 50vw;
-        margin-left: 25vw;
         border-radius: 50px;
         border: none;
     }
 
+    .contact-btn{
+        height: 10vh;
+        width: 10vh;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        border-radius: 50%;
+        background-color: #a25252;
+        box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
+    }
+
+    .mini-header-scroll{
+        font-size: xx-small;
+        text-align: center;
+        margin-top: 1em;
+        color: rgba(255, 255, 255, 0.204);
+    }
 }
 
 @media only screen and (min-width: 1024px){
     .cta-btn{
-        width: 20vw;
-        height: 7vh;
-        margin-top: 1.5em;
-        background-color: rgb(31, 63, 53);
-        color: white;
-        border: 2px solid white;
+        width: 15vw;
+        height: 6vh;
+        font-weight: 800;
+        background-color: rgba(255, 255, 255, 0.089);
+        color: #0d9a79;
+        border: 1px solid #0d9a79;
+        border-radius: 50px;
+        font-size: large;
+    }
+
+    .cta-btn:hover{
+
+        background-color: #0d9a79;
+        color: #303030;
+        border: 1px solid #0d9a79;
         border-radius: 50px;
     }
 
     .cta-btn-inv{
-        width: 20vw;
-        height: 7vh;
-        margin-top: 1.5em;
-        background-color: white;
-        border: 2px solid white;
+        width: 15vw;
+        height: 6vh;
+        background-color:#0d9a79;
+        border: 1px solid #0d9a79;
         border-radius: 50px;
+        color: #303030;
+        font-weight: 800;
+        font-size: large;
     }
-
-    .cta-btn:hover{
-        background-color: rgb(26, 48, 41);
-        color: white;
-        border: 2px solid rgb(143, 247, 179);
-        border-radius: 50px;
-    }
-
+    
     .cta-btn-inv:hover{
-        background-color: rgb(175, 225, 213);
-        border: 2px solid rgb(59, 150, 116);
-        border-radius: 50px;
+        background-color: white;
+        border: 1px solid rgb(73, 32, 37);
+        color: rgb(73, 32, 37);
+    }
+
+    .contact-btn{
+        height: 10vh;
+        width: 10vh;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 3em;
+        margin-bottom: 3em;
+        border-radius: 50%;
+        background-color: #383737;
+        box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
+    }
+
+    .contact-btn:hover{
+        background-color: rgb(73, 32, 37);
+    }
+
+    .contact-btn-img{
+        filter: brightness(0) invert(1);
     }
 }

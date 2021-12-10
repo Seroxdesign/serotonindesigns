@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    .support-sticky{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 70vh;
+        width: 3vw;
+        margin-top: 15vh;
+        background-color: rgba(73, 32, 37, 0.687);
+    }
+
+    .header-sideways{
+        color: white;
+    }
+}

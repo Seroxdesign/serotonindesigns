@@ -1,7 +1,7 @@
 import './App.css';
-import Homepage from 'pages/Homepage/Homepage';
-import ContactPage from 'pages/Contact/ContactPage';
-import LinkPage from 'pages/Links/LinkPage';
+import Homepage from './pages/Homepage/Homepage';
+import ContactPage from './pages/Contact/ContactPage';
+import LinkPage from './pages/Links/LinkPage';
 
 import {
   BrowserRouter as Router,

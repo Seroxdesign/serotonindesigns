@@ -6,10 +6,29 @@
         width: 100vw;
         box-sizing: border-box;
         overflow-x: hidden;
-        background-image: url("https://www.transparenttextures.com/patterns/arches.png");;
-        background-color: #303030;
+  background-color: #d0d0d0;
     }
 
+    .sticky-warning{
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.715);
+    }
+ 
+    .warning-card{
+        height: 100vh;
+        width: 80vw;
+        margin-left: 10%;
+        background-color: rgb(94, 87, 87);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
   
 
     .dropdown-menu{
@@ -43,7 +62,7 @@
         width: 100%;
         margin-top: 2em;
         overflow-x: hidden;
-        padding-bottom: 2em;
+       
        
     }
 
@@ -67,28 +86,7 @@
         padding: 1em;
     }
 
-    .passion-cta{
-        width: 40vw;
-        height: 5vh;
-        margin-top: 0.7em;
-        background-color: #303030;
-        color: #54976a;
-        border: 2px solid #54976a;
-        border-radius: 50px;
-    }
-
-    .passion-header{
-        color: rgb(223, 213, 213);
-
-    }
-
-    .passion-para{
-        color: rgba(245, 245, 245, 0.497);
-        font-size: smaller;
-        margin-top: 0.7em;
-        font-weight: 300;
-    }
-
+   
     #invisible{
         display: none;
     }
@@ -97,7 +95,7 @@
         height: 100vh;
         width: 100vw;
         background-color: #303030;
-        border: 2px solid #54976a;
+        border: 2px solid #1efeff;
         position: absolute;
         top: 0;
         z-index: 5;
@@ -113,23 +111,23 @@
         filter: brightness(0) invert(1);
     }
 
-    .close-contact-btn{
-        height: 8vh;
-        width: 8vh;
-        margin-left: 70vw;
-
-        border: none;
-        background-color: #303030;
-        color: #1efeff;
-        font-size: xx-large;
-        font-weight: 700;
-    }
 
     .contact-header-announcement{
         margin-top: 1em;
         color: aliceblue;
         text-align: center;
         font-size: large;
+    }
+
+   
+    .mailing-bar{
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #096b54;
     }
 }
 
@@ -142,29 +140,22 @@
         width: 100vw;
         box-sizing: border-box;
         overflow-x: hidden;
+        background-color: #303030;
     }
 
-   .section-1{
-       height: 94vh;
-       background-color: rgb(111, 111, 111);
-   
-   }
-
-   .section-2{
-    background-color: rgb(111, 111, 111);
-
-   }
-
-   .section-3{
-    background-color: rgb(111, 111, 111);
+    
+    .content-wrapper{
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
     }
 
    #mobile-only{
        display: none;
-   }
-
-   .section-2{
-       height: 100vh;
    }
 
    .desktop-about-contact{
@@ -211,4 +202,34 @@
        color: rgba(255, 255, 255, 0.742);
        font-size: xx-large;
    }
+
+   .sticky-warning{
+       position: fixed;
+       z-index: 100;
+       top: 0;
+       left: 0;
+       height: 100vh;
+       width: 100vw;
+       background-color: rgba(0, 0, 0, 0.715);
+   }
+
+   .warning-card{
+       height: 100vh;
+       width: 60vw;
+       margin-left: 20%;
+       background-color: rgb(216, 216, 216);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+
+  
+
+   .mailing-bar{
+    width: 100vw;
+    height: 20vh;
+    margin-top: 1em;
+    background-color: #096b54;
+}
 }

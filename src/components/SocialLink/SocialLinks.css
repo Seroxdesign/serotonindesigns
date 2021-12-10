@@ -2,14 +2,25 @@
     .social-link-wrapper{
         width: 100%;
         height: 15vh;
-        background-image: linear-gradient( #3a3a3a, #303030) ;
+        background-image: linear-gradient(#313131, #3c3a3a) ;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         box-sizing: border-box;
         padding: 1em;
-        margin-top: 1.5em;
+    }
+
+    .circular-img-link{
+        background-image: url();
+        height: 30vw;
+        width: 30vw;
+        margin-left: 35vw;
+        border: 1px solid rgba(255, 255, 255, 0.586);
+        border-radius: 50%;
+        margin-top: 2em;
+        background-image: url('https://i.imgur.com/s9rOg3o.jpeg');
+        background-size: cover;
     }
 
     .social-titles{
@@ -24,7 +35,7 @@
     .link-link{
         display: flex;
         align-items: center;
-        border: 3px solid #54976a ;
+        border: 3px solid #0d9a79;
         border-radius: 50%;
         height: 9vh;
         width: 9vh;
@@ -46,38 +57,52 @@
     .head-s-2{
         color: rgba(255, 255, 255, 0.667);
         margin-left: 2em;
-        font-size: small;
+        font-size: x-small;
         font-weight: 200;
+    }
+
+    .link-header{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        color: rgba(252, 252, 252, 0.769);
+        font-size: x-small;
+    }
+
+    .link-header2{
+        margin-top: 1em;
+        text-align: center;
+        font-size: xx-large;
+        color: #0d9a79;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.579);
+    }
+    .social-link-container{
+        background-color: #303030;
     }
 }
 
 @media only screen and (min-width: 1024px){
+
+   
+
     .social-link-wrapper{
-        width: 60%;
-        height: 15vh;
-        background-image: linear-gradient( #3a3a3a,#303030) ;
-        margin-top: 1em;
-        box-shadow: -1px 2px 8px 4px rgba(31, 27, 27, 0.2);
-        padding: 0.5em;
-        box-sizing: border-box;
+        width: 80%;
+        padding: 1em;
+        background-color: rgb(9, 107, 84);
+        border-bottom: 2px solid rgb(65, 64, 64);
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 5em;
-        padding-right: 5em;
-        border-radius: 5px;
     }
 
     .link-im{
-        filter: brightness(0) invert(0.8);
+        filter: brightness(0) invert(0.1);
         height: 2vw;
         width: 2vw;
         transition: 0.3s;
     }
 
     .link-link{
-        border: 3px solid rgb(50, 104, 86);
+        border: 2px solid rgb(29, 28, 28);
         width: 3.5vw;
         height: 3.5vw;
         display: flex;
@@ -88,13 +113,24 @@
     }
 
     .link-link:hover{
-        border: 4px solid rgb(34, 95, 75);
+       
         width: 3.5vw;
         height: 3.5vw;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 50px;
+    }
+
+    .circular-img-link{
+        background-image: url();
+        height: 20vh;
+        width: 20vh;
+        border: 1px solid rgb(9, 107, 84);
+        border-radius: 50%;
+        margin-top: 2em;
+        background-image: url('https://i.imgur.com/s9rOg3o.jpeg');
+        background-size: cover;
     }
 
     .link-im:hover{
@@ -111,7 +147,36 @@
         align-items: center;
         width: 25vw;
         justify-content: space-between;
-        color: rgba(255, 255, 255, 0.695);
+        color: rgba(255, 255, 255, 0.64);
     }
 
+
+    .head-s-1{
+        color: rgba(255, 255, 255, 0.837);
+        font-size: medium;
+        margin-left: 2em;
+        text-align: left;
+    }
+
+    .head-s-2{
+        color: rgba(255, 255, 255, 0.667);
+   
+        font-size: small;
+        font-weight: 200;
+    }
+
+    .link-header{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: small;
+        color: rgba(192, 192, 192, 0.81);
+    }
+
+    .link-header2{
+        margin-top: 1em;
+
+        font-size: xx-large;
+        color: rgb(20, 153, 122);
+
+    }
 }

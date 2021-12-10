@@ -1,32 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 import './MailingList.css'
 
-export default function MailingList() {
-    return (
-        <div className="mailing-wrapper">
-            <h3 className="mailing-header">Join my mailing list</h3>
-            <p className="mailing-para">
-                Receive important <strong>updates</strong> and <strong>offers</strong> straight to your inbox.
-            </p>
+export default class MailingList extends Component {
+    render() {
+        return (
+            <div className="mailing-wrapper">
+                <h3 className="mailing-header">Sign Up</h3>
 
-            <div className="mailing-i-container">
-            <input type="text" className="mailing-input" placeholder="Name"></input>
+                <p className="offer-mailing">Join the conversation and be the first to hear about events, offers and more</p>
+
+
+                <field className="field-row">
+                    <input className="mailing-checkbox" type="checkbox"></input>
+                    <p className="mailing-notice">By checking this box you agree that you are over the age of 18</p>
+                </field>
+                <a href="https://eepurl.com/hPKN1f" target="_blank" ><button className="mailing-sign-up-btn"> Sign Up </button></a>
+
             </div>
-
-            <div className="mailing-i-container">
-            <input type="text" className="mailing-input" placeholder="Email"></input>
-            </div>
-
-            <div className="mailing-submit">
-                <div className="mailing-check">
-
-                </div>
-
-                <button className="mailing-btn">
-                    Subscribe
-                </button>
-            </div>
-        </div>
-    )
+        )
+    }
 }
