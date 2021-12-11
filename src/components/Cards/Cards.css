@@ -58,8 +58,7 @@
    .card-wrapper{
        height: 100vh;
        display: grid;
-       grid-template-rows: 80% 20%;
-       background-color: #303030;       
+       grid-template-rows: 80% 20%;   
     }
 
     .info{

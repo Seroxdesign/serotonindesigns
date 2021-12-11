@@ -10,9 +10,10 @@
 
     .services{
         width: 100vw;
-        height: 80vh;  
+        height: 90vh;  
         margin-top: 2%;
-        background-color: #303030;
+        margin-bottom: 2em;
+        background-color: #222222;
         
     }
 
@@ -97,7 +98,7 @@
     }
 
     .service-header-main{
-        color: rgb(56, 55, 55);
+        color: rgb(204, 204, 204);
         font-size: large;
         margin-top: 1em;
         height: 2em;

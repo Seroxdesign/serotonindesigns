@@ -4,7 +4,9 @@
         width: 100%;
         box-sizing: border-box;
         padding-left: 1em;
-        padding-top: 2em;
+        padding-top: 4em;
+  
+        background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
     }
 
     .field-row{
@@ -74,6 +76,7 @@
         padding-left: 3em;
         align-items: center;
         justify-content: center;
+        background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
     }
 
     .field-row{

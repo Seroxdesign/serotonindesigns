@@ -4,6 +4,8 @@ import SecureContactForm from 'components/ContactForm/SecureContactForm'
 import Footer from 'components/Footer/Footer'
 import FaqContainer from 'components/faq/FaqContainer'
 import MailingList from 'components/MailingList/MailingList'
+import SocialLinkContainerS from 'components/SocialLink/SocialLinkContainerS'
+import Links from 'components/Data/Links'
 
 export default class ContactPage extends Component {
 
@@ -18,6 +20,9 @@ export default class ContactPage extends Component {
 
               
                 <div className="content-wrapper" >
+
+                    
+                <SocialLinkContainerS Links={Links}/>
            
                     <SecureContactForm />
                     <FaqContainer/>     

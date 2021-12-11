@@ -53,6 +53,26 @@ export default class SecureContactForm extends Component {
             />
  
         </field>
+
+        <field className="field">
+        
+            <select id={this.state.form_locked_bool? 'invisible' : ''} name="reason" required>
+                <option value={"free"}>
+                    I want a free website
+                </option>
+                <option value={"social"}>
+                    Social media management
+                </option>
+                <option value={"collaborate"}>
+                    I want to collaborate
+                </option>
+                <option value={"other"}>
+                    other
+                </option>
+            </select>
+
+        </field>
+
   
         <field className="field">
         

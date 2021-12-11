@@ -6,7 +6,7 @@
         width: 100vw;
         box-sizing: border-box;
         overflow-x: hidden;
-  background-color: #d0d0d0;
+  background-color: #303030;
     }
 
     .sticky-warning{
@@ -141,6 +141,7 @@
         box-sizing: border-box;
         overflow-x: hidden;
         background-color: #303030;
+        background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
     }
 
     

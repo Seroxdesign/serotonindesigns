@@ -23,11 +23,7 @@ export default function IntroductionCard() {
                 <Para text={"My name is Sherif and I am a Web Developer and Social media manager"}/>           
 
                 <div className="ctas">
-                <Link to={"/Links"}>
-                <Zoom >
-                    <CTAButton title={"View my links"} type={"cta-btn"}/>
-                </Zoom>
-                </Link>   
+      
 
                 <Link to={"/contact"}>
                 <Zoom >
