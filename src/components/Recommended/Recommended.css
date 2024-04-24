@@ -52,8 +52,6 @@
         align-items: center;
         justify-content: center;
         filter: brightness(0) invert(0.8);
-        
-        display: flex;
         flex-direction: row;
         margin-left: 1em;
     }

@@ -13,7 +13,6 @@
     }
 
     .circular-img-link{
-        background-image: url();
         height: 30vw;
         width: 30vw;
         margin-left: 35vw;
@@ -131,7 +130,6 @@
     }
 
     .circular-img-link{
-        background-image: url();
         height: 20vh;
         width: 20vh;
         border: 1px solid rgb(9, 107, 84);

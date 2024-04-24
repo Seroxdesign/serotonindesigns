@@ -27,9 +27,7 @@ export default class NavbarS extends Component {
         let dropDown= this.dropDown.current
         
 
-        this.setState({
-            nav_status: !this.state.nav_status
-        })
+        this.setState(prevState => ({nav_status: !prevState.nav_status}))
 
         if(this.state.nav_status == true){
             dropDown.style.height = '0'
